@@ -1,0 +1,20 @@
+{
+  "startup": "PROSP",
+  "slug": "prosp",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 128005,
+    "ranked": 14,
+    "growth_mom": null
+  },
+  "category": "Marketing",
+  "audience": "B2B sales teams, founders",
+  "team_size": "Small",
+  "open_source": false,
+  "trustmrr_url": "https://trustmrr.com/startup/prosp",
+  "website": "https://prosp.ai",
+  "founded": null,
+  "country": null,
+  "tech_stack": "LinkedIn API, AI, Stripe"
+}

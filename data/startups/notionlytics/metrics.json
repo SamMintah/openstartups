@@ -1,0 +1,20 @@
+{
+  "startup": "Notionlytics",
+  "slug": "notionlytics",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 38729,
+    "ranked": 47,
+    "growth_mom": 8
+  },
+  "category": "Developer Tools",
+  "audience": "Ops teams, community managers, knowledge managers",
+  "team_size": "Solo",
+  "open_source": false,
+  "trustmrr_url": "https://trustmrr.com/startup/notionlytics",
+  "website": "https://notionlytics.com",
+  "founded": null,
+  "country": null,
+  "tech_stack": "Notion API, analytics, Stripe"
+}

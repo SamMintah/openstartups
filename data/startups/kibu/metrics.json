@@ -1,0 +1,20 @@
+{
+  "startup": "Kibu",
+  "slug": "kibu",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 234319,
+    "ranked": 5,
+    "growth_mom": null
+  },
+  "category": "SaaS",
+  "audience": "Healthcare orgs, I/DD providers",
+  "team_size": "Small team",
+  "open_source": false,
+  "trustmrr_url": "https://trustmrr.com/startup/kibu",
+  "website": "https://kibu.com",
+  "founded": null,
+  "country": null,
+  "tech_stack": "Healthcare SaaS stack, HIPAA compliant"
+}

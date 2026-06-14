@@ -1,0 +1,20 @@
+{
+  "startup": "Stan",
+  "slug": "stan",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 3569654,
+    "ranked": 1,
+    "growth_mom": null
+  },
+  "category": "SaaS",
+  "audience": "Solo creators, coaches",
+  "team_size": "Small team",
+  "open_source": false,
+  "trustmrr_url": "https://trustmrr.com/startup/stan",
+  "website": "https://stan.store",
+  "founded": null,
+  "country": null,
+  "tech_stack": "Custom SaaS"
+}

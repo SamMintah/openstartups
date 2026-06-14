@@ -1,0 +1,20 @@
+{
+  "startup": "SEOBOT",
+  "slug": "seobot",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 57777,
+    "ranked": 32,
+    "growth_mom": 10
+  },
+  "category": "Marketing",
+  "audience": "SaaS founders, content teams",
+  "team_size": "Solo (John Rush)",
+  "open_source": false,
+  "trustmrr_url": "https://trustmrr.com/startup/seobot",
+  "website": "https://seobot.ai",
+  "founded": null,
+  "country": null,
+  "tech_stack": "Next.js, AI APIs, Stripe"
+}

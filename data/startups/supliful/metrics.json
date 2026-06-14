@@ -1,0 +1,20 @@
+{
+  "startup": "Supliful",
+  "slug": "supliful",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 190816,
+    "ranked": 8,
+    "growth_mom": 2
+  },
+  "category": "SaaS",
+  "audience": "Content creators, influencers",
+  "team_size": "Team",
+  "open_source": false,
+  "trustmrr_url": "https://trustmrr.com/startup/brand-on-demand-inc",
+  "website": "https://supliful.com",
+  "founded": null,
+  "country": null,
+  "tech_stack": "Shopify integration, fulfillment API, Stripe"
+}

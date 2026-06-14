@@ -1,10 +1,12 @@
 # Open Startups
 
-> Open database of profitable startups with complete replication playbooks, business models, tech stacks, and step-by-step guides. Learn from real $1K–$100K+ MRR companies.
+> Open database of profitable startups with complete replication playbooks, business models, tech stacks, and step-by-step guides. Learn from real $1K–$3.6M+ MRR companies.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Startups](https://img.shields.io/badge/startups-8-blue.svg)](data/startups/)
+[![Startups](https://img.shields.io/badge/startups-24-blue.svg)](data/startups/)
+[![Total MRR](https://img.shields.io/badge/total%20MRR-%248.6M-green.svg)](data/index.json)
+[![TrustMRR](https://img.shields.io/badge/data%20source-TrustMRR-orange.svg)](https://trustmrr.com)
 
 ---
 
@@ -22,16 +24,46 @@ A free, community-driven collection of **real profitable startups** with detaile
 
 ## Browse Startups
 
-| Startup | MRR | Category | Replication Guide |
-|---------|-----|----------|-------------------|
-| [Postiz](data/startups/postiz/) | $128,731 | Social Media / AI | [Guide](data/startups/postiz/replication-guide.md) |
-| [Virlo](data/startups/virlo/) | $24,738 | Analytics / SaaS | [Guide](data/startups/virlo/replication-guide.md) |
-| [Backlinker AI](data/startups/backlinker-ai/) | $23,123 | Marketing / AI | [Guide](data/startups/backlinker-ai/replication-guide.md) |
-| [AppGen](data/startups/appgen/) | $10,968 | AI | [Guide](data/startups/appgen/replication-guide.md) |
-| [Efferd](data/startups/efferd/) | $6,504 | Design Tools | [Guide](data/startups/efferd/replication-guide.md) |
-| [The Swift Kit](data/startups/the-swift-kit/) | $1,251 | Dev Tools | [Guide](data/startups/the-swift-kit/replication-guide.md) |
-| [QuizGPT](data/startups/quizgpt/) | $331 | Education / AI | [Guide](data/startups/quizgpt/replication-guide.md) |
-| [VoiceType](data/startups/voicetype/) | — | AI / Productivity | [Guide](data/startups/voicetype/replication-guide.md) |
+24 profitable startups with Stripe-verified revenue from [TrustMRR](https://trustmrr.com). Total MRR: **$8.6M+**
+
+### Tier 1: $100K+ MRR
+
+| Startup | MRR | Rank | Category | Guide |
+|---------|-----|------|----------|-------|
+| [Stan](data/startups/stan/) | $3.6M | #1 | SaaS | [Guide](data/startups/stan/replication-guide.md) |
+| [Rezi](data/startups/rezi/) | $270K | #4 | AI | [Guide](data/startups/rezi/replication-guide.md) |
+| [Kibu](data/startups/kibu/) | $234K | #5 | SaaS | [Guide](data/startups/kibu/replication-guide.md) |
+| [1Lookup](data/startups/1lookup/) | $227K | #6 | Dev Tools | [Guide](data/startups/1lookup/replication-guide.md) |
+| [Cometly](data/startups/cometly/) | $201K | #7 | Marketing | [Guide](data/startups/cometly/replication-guide.md) |
+| [Supliful](data/startups/supliful/) | $191K | #8 | SaaS | [Guide](data/startups/supliful/replication-guide.md) |
+| [Postiz](data/startups/postiz/) | $143K | #12 | AI | [Guide](data/startups/postiz/replication-guide.md) |
+| [PROSP](data/startups/prosp/) | $128K | #14 | Marketing | [Guide](data/startups/prosp/replication-guide.md) |
+
+### Tier 2: $50K–$100K MRR
+
+| Startup | MRR | Rank | Category | Guide |
+|---------|-----|------|----------|-------|
+| [PropGPT](data/startups/propgpt/) | $96K | #17 | AI | [Guide](data/startups/propgpt/replication-guide.md) |
+| [Vid.AI](data/startups/vidai/) | $93K | #18 | AI | [Guide](data/startups/vidai/replication-guide.md) |
+| [Codédex](data/startups/codedex/) | $87K | #19 | Education | [Guide](data/startups/codedex/replication-guide.md) |
+| [Upscale](data/startups/upscale/) | $69K | #22 | SaaS | [Guide](data/startups/upscale/replication-guide.md) |
+| [Speel](data/startups/speel/) | $66K | #24 | AI | [Guide](data/startups/speel/replication-guide.md) |
+| [Indexsy](data/startups/indexsy/) | $65K | #25 | Marketing | [Guide](data/startups/indexsy/replication-guide.md) |
+| [AEO Engine](data/startups/aeoengine/) | $61K | #27 | Marketing | [Guide](data/startups/aeoengine/replication-guide.md) |
+| [PixelPainters](data/startups/pixelpainters/) | $61K | #28 | SaaS | [Guide](data/startups/pixelpainters/replication-guide.md) |
+| [BackPedal](data/startups/backpedal/) | $59K | #31 | SaaS | [Guide](data/startups/backpedal/replication-guide.md) |
+| [SEOBOT](data/startups/seobot/) | $58K | #32 | Marketing | [Guide](data/startups/seobot/replication-guide.md) |
+
+### Tier 3: $35K–$50K MRR
+
+| Startup | MRR | Rank | Category | Guide |
+|---------|-----|------|----------|-------|
+| [Hack2hire](data/startups/hack2hire/) | $46K | #39 | Education | [Guide](data/startups/hack2hire/replication-guide.md) |
+| [ChatDash](data/startups/chatdash/) | $41K | #43 | SaaS | [Guide](data/startups/chatdash/replication-guide.md) |
+| [Simple Analytics](data/startups/simple-analytics/) | $39K | #46 | SaaS | [Guide](data/startups/simple-analytics/replication-guide.md) |
+| [Notionlytics](data/startups/notionlytics/) | $39K | #47 | Dev Tools | [Guide](data/startups/notionlytics/replication-guide.md) |
+| [Launch Club](data/startups/launch-club/) | $36K | #48 | Marketing | [Guide](data/startups/launch-club/replication-guide.md) |
+| [Virlo](data/startups/virlo/) | $36K | #50 | SaaS | [Guide](data/startups/virlo/replication-guide.md) |
 
 ## How to Use
 

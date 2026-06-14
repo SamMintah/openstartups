@@ -1,53 +1,35 @@
 # Postiz
 
-> The ultimate agentic social media scheduler tool
+> Agentic social media scheduler tool. 3,896 active subscriptions. Open source.
 
-**Website:** [postiz.com](https://postiz.com) | **MRR:** $143,269 | **Total Revenue:** $575,543 | **Source:** [TrustMRR](https://trustmrr.com/startup/postiz)
+**Website:** [https://postiz.com](https://postiz.com) | **MRR:** $143K | **Ranked:** #12 on TrustMRR | **Source:** [TrustMRR](https://trustmrr.com/startup/postiz)
 
 ---
 
 ## Problem
 
-Managing social media across multiple platforms is time-consuming and inconsistent. Creators and businesses struggle to maintain a consistent posting schedule while creating quality content.
-
-## Solution
-
-Postiz is an AI-powered social media scheduling tool that automates content creation, scheduling, and publishing across platforms. It uses AI agents to handle the entire content pipeline.
+Creators and agencies spend hours manually scheduling and repurposing content
 
 ## Target Audience
 
-- **Primary:** Content creators, solo entrepreneurs
-- **Secondary:** Marketing agencies, small businesses
-- **Use cases:** Personal brand growth, client social management, content automation
+- **Primary:** Creators, agencies, B2B
+- **Team Size:** Solo (Nevo David)
 
 ## Tech Stack
 
-- **Backend:** Node.js / TypeScript
-- **Database:** PostgreSQL
-- **Payments:** Stripe
-- **Hosting:** Vercel
-- **AI:** OpenAI API
+Next.js, NestJS, Prisma, Stripe
 
-## Key Features
+## Key Metrics
 
-- AI-powered content generation
-- Multi-platform scheduling (Twitter, LinkedIn, Instagram, etc.)
-- Analytics dashboard
-- Team collaboration
-- Content calendar
-- Open-source core
+- **MRR:** $143K
+- **TrustMRR Rank:** #12
+- **Growth:** +24% MoM
 
-## Metrics
-
-- **MRR:** $143,269
-- **Total Revenue:** $575,543
-- **Active Subscribers:** 4,278
-- **Founded:** July 2024
-- **Domain Rating:** 70/100
-- **Ranked:** #125 on TrustMRR
+- **Category:** AI
+- **Open Source:** Yes
 
 ---
 
-**Attribution:** Sourced from [TrustMRR](https://trustmrr.com) – for educational purposes.
+**Attribution:** Revenue data sourced from [TrustMRR](https://trustmrr.com) via Stripe API verification — for educational purposes.
 
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating. We are not affiliated with Postiz.

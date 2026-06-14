@@ -1,0 +1,20 @@
+{
+  "startup": "Cod\u00e9dex",
+  "slug": "codedex",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 86557,
+    "ranked": 19,
+    "growth_mom": 2
+  },
+  "category": "Education",
+  "audience": "Gen Z learners (16\u201324)",
+  "team_size": "Small team",
+  "open_source": false,
+  "trustmrr_url": "https://trustmrr.com/startup/cod-dex",
+  "website": "https://codedex.io",
+  "founded": null,
+  "country": null,
+  "tech_stack": "React, gamification engine, Stripe"
+}

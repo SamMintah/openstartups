@@ -1,99 +1,66 @@
 # Virlo — Replication Guide
 
-> How to build a short-form video analytics tool
+> How to build a saas product like Virlo
 
 ## Overview
 
-This guide covers building a data analytics tool focused on short-form video content performance.
+This guide covers building a product similar to Virlo in the SaaS space.
 
-## Phase 1: MVP (Week 1-3)
+**Problem to solve:** Creators and brands have no single view of performance across all short-form platforms
 
-### Core Features
-- Track TikTok trending content
-- Basic performance metrics (views, likes, shares)
-- Simple dashboard
-- Export data
+**Target audience:** Content creators, brand managers
 
-### Tech Stack
-- **Frontend:** Next.js + Tailwind CSS
-- **Backend:** Python (FastAPI)
-- **Database:** PostgreSQL + Redis
-- **Data Collection:** Playwright/Scrapy
-- **Payments:** Stripe
+## Tech Stack Reference
 
-### Steps
+Social APIs, analytics, Stripe
 
-1. **Set up data collection**
-   - Use TikTok's unofficial API or scraping
-   - Collect trending videos hourly
-   - Store in PostgreSQL
+## Build Steps
 
-2. **Build metrics pipeline**
-   - Calculate engagement rates
-   - Track performance over time
-   - Identify patterns
 
-3. **Create dashboard**
-   - Trending topics view
-   - Performance charts
-   - Search/filter functionality
+### Step 1: Build unified TikTok + Reels + Shorts analytics dashboard
 
-4. **Add authentication**
-   - Email/password auth
-   - API key management
-   - Usage tracking
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-5. **Set up payments**
-   - Stripe integration
-   - Usage-based pricing
-   - Billing portal
+### Step 2: Add competitor tracking as key differentiator
 
-## Phase 2: Launch (Week 4-5)
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-### Pre-Launch
-- Build waitlist
-- Create demo video
-- Write launch blog post
+### Step 3: Price at $29/mo; free for 1 channel
 
-### Launch Day
-- Product Hunt launch
-- Twitter/X thread
-- LinkedIn post
-- Community shares
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-## Phase 3: Growth (Month 2+)
+### Step 4: Grow by posting short-form analytics insights on TikTok
 
-### Content Marketing
-- Weekly trend reports
-- Platform comparison guides
-- Case studies
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-### Sales
-- Direct outreach to agencies
-- Demo calls
-- Free trial conversion
 
-## No-Code Alternative
+## Launch Checklist
 
-Limited feasibility for this type of product, but:
-- **Dashboard:** Retool or Appsmith
-- **Data:** Use existing APIs (RapidAPI)
-- **Payments:** Stripe
+- [ ] MVP functional with core features
+- [ ] Landing page with clear value proposition
+- [ ] Payment integration (Stripe)
+- [ ] Analytics tracking
+- [ ] Initial user outreach
+- [ ] Feedback collection system
+
+## Marketing Channels
+
+- Build unified TikTok + Reels + Shorts analytics dashboard
+- Add competitor tracking as key differentiator
+- Price at $29/mo; free for 1 channel
 
 ## Cost Estimate
 
 | Item | Monthly Cost |
 |------|-------------|
-| Vercel | $0 (hobby) |
-| Railway (backend) | $5 |
-| PostgreSQL (Supabase) | $0 (free tier) |
-| Redis (Upstash) | $0 (free tier) |
+| Hosting | $0–$20 |
 | Domain | $1 |
-| Stripe | 2.9% + $0.30/txn |
-| **Total** | **~$6/mo** |
+| Third-party APIs | $20–$100 |
+| Stripe fees | 2.9% + $0.30/txn |
+| **Total** | **~$21–$121/mo** |
 
 ---
 
-**Attribution:** Sourced from [TrustMRR](https://trustmrr.com) – for educational purposes.
+**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/virlo) — for educational purposes.
 
 **Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.

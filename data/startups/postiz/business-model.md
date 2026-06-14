@@ -1,40 +1,32 @@
 # Postiz — Business Model
 
-## Revenue Model
+## Overview
 
-Postiz operates on a **freemium subscription** model with a free tier and paid upgrades.
+Agentic social media scheduler tool. 3,896 active subscriptions. Open source.
 
-## Pricing Tiers
+## Target Market
+
+Creators, agencies, B2B
+
+
+## Pricing Model
+
+Postiz uses a **freemium** model:
 
 | Plan | Price | Details |
 |------|-------|---------|
-| Free | $0 | Core scheduling features, limited posts |
-| Pro | ~$19/mo | Unlimited posts, AI features, analytics |
-| Business | ~$49/mo | Team features, priority support, integrations |
+| Free | $0 | Core scheduling features |
+| Pro | ~$19/mo | Unlimited posts, AI features |
+| Business | ~$49/mo | Team features, priority support |
 
-## Revenue Breakdown
-
-- **MRR:** $143,269
-- **Total Revenue:** $575,543
-- **Active Subscribers:** 4,278
-- **Average Revenue per User:** ~$33/mo
-- **Founded:** July 2024
 
 ## Growth Strategy
 
-1. **Open-source core** — Free tier drives adoption, paid features convert
-2. **Content marketing** — Blog posts on social media strategy
-3. **Community** — Active presence on Twitter/X
-4. **Word of mouth** — Satisfied users refer others
-5. **Product-led growth** — Freemium model reduces friction
-
-## Competitive Advantages
-
-- Open-source (trust and community)
-- AI-native (not bolted on)
-- Modern tech stack
-- Strong founder presence on social media
+1. Fork the open source repo and customize branding
+2. Offer white-label version for agencies at $200/mo
+3. Grow via Twitter/X building-in-public posts
+4. Add AI repurposing as premium upsell
 
 ---
 
-**Attribution:** Sourced from [TrustMRR](https://trustmrr.com) – for educational purposes.
+**Attribution:** Data sourced from [TrustMRR](https://trustmrr.com) — for educational purposes.

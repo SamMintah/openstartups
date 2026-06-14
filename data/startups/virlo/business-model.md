@@ -1,40 +1,28 @@
 # Virlo — Business Model
 
-## Revenue Model
+## Overview
 
-Tiered subscription model targeting B2B customers.
+Track, manage, and leverage short-form video data. Analytics for TikTok/Reels/Shorts.
 
-## Pricing Tiers
+## Target Market
 
-| Plan | Price | Details |
-|------|-------|---------|
-| Starter | $49/mo | Basic tracking, limited platforms |
-| Pro | $199/mo | Full analytics, all platforms, API access |
-| Enterprise | Custom | Dedicated support, custom integrations |
+Content creators, brand managers
 
-## Revenue Breakdown
 
-- **MRR:** $35,032
-- **Total Revenue:** $308,821
-- **Active Subscribers:** 582
-- **Average Revenue per User:** ~$60/mo
-- **Founded:** November 2024
+## Revenue
+
+- **MRR:** $36K
+- **Category:** SaaS
+- **Growth:** +26% MoM
+
 
 ## Growth Strategy
 
-1. **Data moat** — Unique datasets competitors can't easily replicate
-2. **B2B sales** — Direct outreach to agencies and brands
-3. **Thought leadership** — Publish trend reports
-4. **Referrals** — Agency-to-agency recommendations
-5. **Content marketing** — SEO around short-form video trends
-
-## Competitive Advantages
-
-- Real-time data (not cached/ delayed)
-- Cross-platform analysis
-- Focus on short-form (niche expertise)
-- Strong founder presence
+1. Build unified TikTok + Reels + Shorts analytics dashboard
+2. Add competitor tracking as key differentiator
+3. Price at $29/mo; free for 1 channel
+4. Grow by posting short-form analytics insights on TikTok
 
 ---
 
-**Attribution:** Sourced from [TrustMRR](https://trustmrr.com) – for educational purposes.
+**Attribution:** Data sourced from [TrustMRR](https://trustmrr.com) — for educational purposes.

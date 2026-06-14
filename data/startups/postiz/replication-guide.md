@@ -1,111 +1,66 @@
 # Postiz — Replication Guide
 
-> How to build a social media scheduling tool from scratch
+> How to build a ai product like Postiz
 
 ## Overview
 
-This guide walks you through building an AI-powered social media scheduler inspired by Postiz.
+This guide covers building a product similar to Postiz in the AI space.
 
-## Phase 1: MVP (Week 1-2)
+**Problem to solve:** Creators and agencies spend hours manually scheduling and repurposing content
 
-### Core Features
-- User authentication
-- Connect 1-2 social platforms (Twitter + LinkedIn)
-- Basic scheduling (time-slot based)
-- Simple dashboard
+**Target audience:** Creators, agencies, B2B
 
-### Tech Stack
-- **Frontend:** Next.js + Tailwind CSS
-- **Backend:** Next.js API routes
-- **Database:** Supabase (PostgreSQL + Auth)
-- **Payments:** Stripe
-- **AI:** OpenAI API
+## Tech Stack Reference
 
-### Steps
+Next.js, NestJS, Prisma, Stripe
 
-1. **Set up project**
-   ```bash
-   npx create-next-app@latest social-scheduler --typescript --tailwind
-   cd social-scheduler
-   npm install @supabase/supabase-js stripe openai
-   ```
+## Build Steps
 
-2. **Configure Supabase**
-   - Create project at supabase.com
-   - Set up users table
-   - Configure auth providers
 
-3. **Build Twitter integration**
-   - Use Twitter API v2
-   - OAuth 2.0 flow
-   - Schedule posts endpoint
+### Step 1: Fork the open source repo and customize branding
 
-4. **Create scheduling UI**
-   - Calendar view
-   - Post composer
-   - Platform selector
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-5. **Add Stripe payments**
-   - Create pricing page
-   - Set up webhook handler
-   - Gate features behind subscription
+### Step 2: Offer white-label version for agencies at $200/mo
 
-## Phase 2: Launch (Week 3-4)
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-### Pre-Launch
-- Build landing page with clear value prop
-- Set up analytics (Plausible/PostHog)
-- Create Product Hunt listing
+### Step 3: Grow via Twitter/X building-in-public posts
 
-### Launch Day
-- Post on Twitter/X
-- Submit to Product Hunt
-- Share in relevant communities (r/SaaS, Indie Hackers)
-- Email your network
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-### Post-Launch
-- Respond to all feedback
-- Fix critical bugs immediately
-- Ship quick wins from user requests
+### Step 4: Add AI repurposing as premium upsell
 
-## Phase 3: Growth (Month 2+)
+Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
 
-### Content Marketing
-- Write about social media strategy
-- Share building-in-public updates
-- Create comparison posts (vs competitors)
 
-### SEO
-- Target "social media scheduler" keywords
-- Create landing pages for each platform
-- Write how-to guides
+## Launch Checklist
 
-### Community
-- Active Twitter/X presence
-- Discord/Slack community
-- Open-source contributions
+- [ ] MVP functional with core features
+- [ ] Landing page with clear value proposition
+- [ ] Payment integration (Stripe)
+- [ ] Analytics tracking
+- [ ] Initial user outreach
+- [ ] Feedback collection system
 
-## No-Code Alternative
+## Marketing Channels
 
-For non-technical builders:
-- **Tool:** Bubble.io or Softr
-- **Auth:** Clerk or Auth0
-- **Payments:** Stripe or Lemon Squeezy
-- **Scheduling:** Use Make.com or Zapier for integrations
+- Fork the open source repo and customize branding
+- Offer white-label version for agencies at $200/mo
+- Grow via Twitter/X building-in-public posts
 
 ## Cost Estimate
 
 | Item | Monthly Cost |
 |------|-------------|
-| Vercel hosting | $0 (hobby) |
-| Supabase | $0 (free tier) |
+| Hosting | $0–$20 |
 | Domain | $1 |
-| Stripe | 2.9% + $0.30/txn |
-| OpenAI API | ~$20/mo |
-| **Total** | **~$21/mo** |
+| Third-party APIs | $20–$100 |
+| Stripe fees | 2.9% + $0.30/txn |
+| **Total** | **~$21–$121/mo** |
 
 ---
 
-**Attribution:** Sourced from [TrustMRR](https://trustmrr.com) – for educational purposes.
+**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/postiz) — for educational purposes.
 
 **Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.

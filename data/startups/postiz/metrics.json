@@ -4,24 +4,17 @@
   "last_updated": "2026-06-14",
   "source": "TrustMRR",
   "metrics": {
-    "mrr": 143269,
-    "total_revenue": 575543,
-    "active_subscribers": 4278,
-    "founded": "2024-07",
-    "country": "HK",
-    "domain_rating": 70,
-    "ranked": 125
+    "mrr": 142648,
+    "ranked": 12,
+    "growth_mom": 24
   },
-  "pricing": {
-    "tiers": ["Free", "Pro (~$19/mo)", "Business (~$49/mo)"],
-    "model": "freemium"
-  },
-  "audience": {
-    "type": "B2B",
-    "size": "~27,500 users"
-  },
-  "growth": {
-    "yoy": "N/A (founded 2024)",
-    "mom": "high"
-  }
+  "category": "AI",
+  "audience": "Creators, agencies, B2B",
+  "team_size": "Solo (Nevo David)",
+  "open_source": true,
+  "trustmrr_url": "https://trustmrr.com/startup/postiz",
+  "website": "https://postiz.com",
+  "founded": "2024-07",
+  "country": "HK",
+  "tech_stack": "Next.js, NestJS, Prisma, Stripe"
 }
