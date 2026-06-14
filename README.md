@@ -53,6 +53,54 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for:
 
 Revenue data is verified via [TrustMRR](https://trustmrr.com) Stripe API integration. We gratefully acknowledge TrustMRR as our primary data source.
 
+## Support This Project
+
+Open Startups is maintained by volunteers and contributors who believe in making startup knowledge accessible to everyone. Your support helps us keep the database accurate, expand to more startups, and build better tools for the community.
+
+### Why Sponsor?
+
+- **Keep the data fresh** — Verified metrics from TrustMRR require ongoing maintenance
+- **Expand the database** — More startups, more categories, more replication guides
+- **Build tooling** — Automate imports, create a web interface, add search
+- **Stay independent** — No paywalls, no gated content, always free
+
+### Ways to Support
+
+| Method | Link | Best For |
+|--------|------|----------|
+| GitHub Sponsors | [Sponsor on GitHub](https://github.com/sponsors/open-startups) | Monthly recurring support |
+| Buy Me A Coffee | [Buy Me A Coffee](https://buymeacoffee.com/openstartups) | One-time appreciation |
+| One-Time Donation | [GitHub Sponsors](https://github.com/sponsors/open-startups?frequency=one-time) | Flexible amount |
+| Affiliate Links | See below | Free to you, pays us |
+
+### Where Your Money Goes
+
+| Category | What It Covers |
+|----------|----------------|
+| Infrastructure | Hosting, domain, CDN, CI/CD |
+| Data | TrustMRR API access, verification tools |
+| Development | Web interface, search, API |
+| Maintenance | Reviews, updates, community management |
+| Expansion | New categories, more startups, better guides |
+
+### Affiliate Partnerships
+
+We occasionally use affiliate links for tools we genuinely recommend. These cost you nothing extra but help fund the project:
+
+- [ShipFast](https://shipfa.st) — Next.js SaaS boilerplate
+- [Supabase](https://supabase.com) — Backend-as-a-service
+- [Vercel](https://vercel.com) — Hosting platform
+
+*Disclosure: These are tools the community actually uses. We only recommend what we'd use ourselves.*
+
+### Sponsor Recognition
+
+Sponsors who contribute $10+ monthly are featured in our README with a link to their project or company. It's our way of saying thank you while driving a little traffic your way.
+
+---
+
+*Every contribution — whether it's a dollar, a pull request, or a star on GitHub — helps make this project better for everyone. Thank you for being part of the community.*
+
 ## Disclaimer
 
 This project is for **educational and informational purposes only**. When replicating any business:
