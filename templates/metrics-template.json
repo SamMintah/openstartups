@@ -1,0 +1,27 @@
+{
+  "startup": "",
+  "slug": "",
+  "last_updated": "YYYY-MM-DD",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 0,
+    "total_revenue": 0,
+    "active_subscribers": 0,
+    "founded": "YYYY-MM",
+    "country": "",
+    "domain_rating": 0,
+    "ranked": 0
+  },
+  "pricing": {
+    "tiers": [],
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B",
+    "size": "~XXX users"
+  },
+  "growth": {
+    "yoy": "XX%",
+    "mom": "XX%"
+  }
+}
