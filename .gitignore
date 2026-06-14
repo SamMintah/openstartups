@@ -16,3 +16,6 @@ venv/
 
 # Node
 node_modules/
+
+# Internal docs
+docs/superpowers/
