@@ -1,0 +1,27 @@
+{
+  "startup": "Backlinker AI",
+  "slug": "backlinker-ai",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 24700,
+    "total_revenue": 465895,
+    "active_subscribers": 63,
+    "founded": "2023-07",
+    "country": "US",
+    "domain_rating": 28,
+    "ranked": 143
+  },
+  "pricing": {
+    "tiers": ["$300/mo"],
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B",
+    "size": "~100 users"
+  },
+  "growth": {
+    "yoy": "180%",
+    "mom": "strong"
+  }
+}
