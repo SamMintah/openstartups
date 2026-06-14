@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "startups": [
+    {
+      "slug": "postiz",
+      "name": "Postiz",
+      "mrr": 143269,
+      "total_revenue": 575543,
+      "active_subscribers": 4278,
+      "categories": ["social-media", "ai", "saas"],
+      "founded": "2024-07",
+      "country": "HK",
+      "founded_by": "Nevo David",
+      "trustmrr_url": "https://trustmrr.com/startup/postiz",
+      "website": "https://postiz.com"
+    },
+    {
+      "slug": "virlo",
+      "name": "Virlo",
+      "mrr": 35032,
+      "total_revenue": 308821,
+      "active_subscribers": 582,
+      "categories": ["analytics", "marketing", "saas"],
+      "founded": "2024-11",
+      "country": "US",
+      "founded_by": "Nicolas Mauro",
+      "trustmrr_url": "https://trustmrr.com/startup/virlo",
+      "website": "https://virlo.ai"
+    },
+    {
+      "slug": "backlinker-ai",
+      "name": "Backlinker AI",
+      "mrr": 24700,
+      "total_revenue": 465895,
+      "active_subscribers": 63,
+      "categories": ["marketing", "ai", "saas"],
+      "founded": "2023-07",
+      "country": "US",
+      "founded_by": "Bennett",
+      "trustmrr_url": "https://trustmrr.com/startup/backlinker-ai",
+      "website": "https://backlinker.ai"
+    },
+    {
+      "slug": "appgen",
+      "name": "AppGen",
+      "mrr": 10025,
+      "total_revenue": 80286,
+      "active_subscribers": 259,
+      "categories": ["ai", "developer-tools"],
+      "founded": "2025-09",
+      "country": "US",
+      "founded_by": "Ryan Faber",
+      "trustmrr_url": "https://trustmrr.com/startup/appgen",
+      "website": "https://appgen.com"
+    },
+    {
+      "slug": "efferd",
+      "name": "Efferd",
+      "mrr": 6504,
+      "total_revenue": 13138,
+      "active_subscribers": 0,
+      "categories": ["design-tools", "developer-tools", "saas"],
+      "founded": "2025-09",
+      "country": "PK",
+      "founded_by": "Shaban",
+      "trustmrr_url": "https://trustmrr.com/startup/efferd",
+      "website": "https://efferd.com"
+    },
+    {
+      "slug": "the-swift-kit",
+      "name": "The Swift Kit",
+      "mrr": 1251,
+      "total_revenue": 1369,
+      "active_subscribers": 0,
+      "categories": ["developer-tools", "mobile-apps"],
+      "founded": "2025-09",
+      "country": "IN",
+      "founded_by": "Ahmed Gagan",
+      "trustmrr_url": "https://trustmrr.com/startup/the-swift-kit",
+      "website": "https://theswiftk.it.com"
+    },
+    {
+      "slug": "quizgpt",
+      "name": "QuizGPT",
+      "mrr": 337,
+      "total_revenue": 1967,
+      "active_subscribers": 86,
+      "categories": ["ai", "education", "productivity"],
+      "founded": "2025-05",
+      "country": "CH",
+      "founded_by": "Erik Buser",
+      "trustmrr_url": "https://trustmrr.com/startup/quizgpt",
+      "website": "https://quizgpt.site"
+    },
+    {
+      "slug": "voicetype",
+      "name": "VoiceType",
+      "mrr": null,
+      "total_revenue": null,
+      "active_subscribers": null,
+      "categories": ["ai", "productivity"],
+      "founded": null,
+      "country": null,
+      "founded_by": null,
+      "trustmrr_url": null,
+      "website": "https://voicetype.com",
+      "note": "Entry based on public information; not listed on TrustMRR"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+categories:
+  ai:
+    name: Artificial Intelligence
+    description: Products powered by machine learning, LLMs, or AI APIs
+    icon: 🤖
+
+  saas:
+    name: SaaS
+    description: Software-as-a-Service subscription products
+    icon: 💻
+
+  developer-tools:
+    name: Developer Tools
+    description: Tools that help developers build, deploy, or manage software
+    icon: 🛠️
+
+  marketing:
+    name: Marketing
+    description: Tools for SEO, outreach, advertising, and growth
+    icon: 📣
+
+  social-media:
+    name: Social Media
+    description: Social media management, scheduling, and analytics
+    icon: 📱
+
+  analytics:
+    name: Analytics
+    description: Data tracking, reporting, and intelligence tools
+    icon: 📊
+
+  design-tools:
+    name: Design Tools
+    description: UI/UX design, components, and creative tools
+    icon: 🎨
+
+  education:
+    name: Education
+    description: Learning platforms, courses, and educational tools
+    icon: 📚
+
+  productivity:
+    name: Productivity
+    description: Tools that improve personal or team workflows
+    icon: ⚡
+
+  mobile-apps:
+    name: Mobile Apps
+    description: iOS and Android applications
+    icon: 📲
+
+  ecommerce:
+    name: E-commerce
+    description: Online store builders and commerce tools
+    icon: 🛒
+
+  fintech:
+    name: Fintech
+    description: Financial technology and payment tools
+    icon: 💰
+
+  no-code:
+    name: No-Code
+    description: No-code and low-code platforms
+    icon: 🔧
+
+  content-creation:
+    name: Content Creation
+    description: Tools for creating written, visual, or video content
+    icon: ✍️
