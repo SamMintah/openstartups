@@ -1,0 +1,27 @@
+{
+  "startup": "The Swift Kit",
+  "slug": "the-swift-kit",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 1251,
+    "total_revenue": 1369,
+    "active_subscribers": 0,
+    "founded": "2025-09",
+    "country": "IN",
+    "domain_rating": null,
+    "ranked": 2205
+  },
+  "pricing": {
+    "tiers": ["$99 one-time", "$149 one-time"],
+    "model": "one-time"
+  },
+  "audience": {
+    "type": "B2C",
+    "size": "~50 users"
+  },
+  "growth": {
+    "yoy": "N/A",
+    "mom": "early"
+  }
+}
