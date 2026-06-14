@@ -1,0 +1,27 @@
+{
+  "startup": "Virlo",
+  "slug": "virlo",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 35032,
+    "total_revenue": 308821,
+    "active_subscribers": 582,
+    "founded": "2024-11",
+    "country": "US",
+    "domain_rating": 46,
+    "ranked": 203
+  },
+  "pricing": {
+    "tiers": ["Starter $49/mo", "Pro $199/mo", "Enterprise Custom"],
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B",
+    "size": "~6,800 users"
+  },
+  "growth": {
+    "yoy": "N/A (founded 2024)",
+    "mom": "strong"
+  }
+}
