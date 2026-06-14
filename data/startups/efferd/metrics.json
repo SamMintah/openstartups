@@ -1,0 +1,27 @@
+{
+  "startup": "Efferd",
+  "slug": "efferd",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 6504,
+    "total_revenue": 13138,
+    "active_subscribers": 0,
+    "founded": "2025-09",
+    "country": "PK",
+    "domain_rating": 28,
+    "ranked": 1013
+  },
+  "pricing": {
+    "tiers": ["Hobby Free", "Pro $147 one-time", "Team $497 one-time"],
+    "model": "one-time"
+  },
+  "audience": {
+    "type": "B2B",
+    "size": "developers"
+  },
+  "growth": {
+    "yoy": "N/A",
+    "mom": "steady"
+  }
+}
