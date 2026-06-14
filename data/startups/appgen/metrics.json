@@ -1,0 +1,27 @@
+{
+  "startup": "AppGen",
+  "slug": "appgen",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 10025,
+    "total_revenue": 80286,
+    "active_subscribers": 259,
+    "founded": "2025-09",
+    "country": "US",
+    "domain_rating": null,
+    "ranked": 442
+  },
+  "pricing": {
+    "tiers": ["Starter ~$29/mo", "Pro ~$79/mo", "Business ~$149/mo"],
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2C",
+    "size": "~500 users"
+  },
+  "growth": {
+    "yoy": "N/A",
+    "mom": "growing"
+  }
+}
