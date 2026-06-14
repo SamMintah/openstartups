@@ -1,0 +1,27 @@
+{
+  "startup": "Postiz",
+  "slug": "postiz",
+  "last_updated": "2026-06-14",
+  "source": "TrustMRR",
+  "metrics": {
+    "mrr": 143269,
+    "total_revenue": 575543,
+    "active_subscribers": 4278,
+    "founded": "2024-07",
+    "country": "HK",
+    "domain_rating": 70,
+    "ranked": 125
+  },
+  "pricing": {
+    "tiers": ["Free", "Pro (~$19/mo)", "Business (~$49/mo)"],
+    "model": "freemium"
+  },
+  "audience": {
+    "type": "B2B",
+    "size": "~27,500 users"
+  },
+  "growth": {
+    "yoy": "N/A (founded 2024)",
+    "mom": "high"
+  }
+}
