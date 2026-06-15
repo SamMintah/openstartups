@@ -1,66 +1,75 @@
 # Notionlytics — Replication Guide
 
-> How to build a developer tools product like Notionlytics
+> How to build analytics for Notion workspaces
 
 ## Overview
 
-This guide covers building a product similar to Notionlytics in the Developer Tools space.
+Notionlytics provides detailed analytics for Notion — company wikis, knowledge bases, shared documents. $39K MRR, Rank #47, growing 8% MoM. The core insight: teams share Notion docs but have zero visibility into what people actually read. Analytics changes that.
 
-**Problem to solve:** Teams share Notion docs but have zero visibility into what people actually read
+**Key Metrics:** MRR: $39K | Rank: #47 | Growth: +8% MoM | Team: Solo
 
-**Target audience:** Ops teams, community managers, knowledge managers
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** Notion workspace analytics.
 
-Notion API, analytics, Stripe
+**Why underserved:** Notion is used by 30M+ people but provides no analytics. Teams publish docs but don't know if anyone reads them. Notionlytics fills this gap.
 
-## Build Steps
+**Competitive Landscape:** Notion itself (no analytics), Google Analytics (not designed for docs). Notionlytics is the only dedicated Notion analytics tool.
 
+## MVP Build Guide
 
-### Step 1: Use Notion API to track page views + engagement
+### Core Features
+1. Notion API integration for page tracking
+2. Engagement dashboard (views, reads, time spent)
+3. Content performance ranking
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Node.js | Free |
+| API | Notion API | Free |
+| Database | PostgreSQL | Free tier |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Build a simple dashboard showing read rates
+**Build time:** 3-4 weeks | **Cost:** $0-50/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Offer free tier for 1 workspace, paid at $19/mo
+$19/mo per workspace. Free tier for 1 workspace. Team pricing: $9/mo per member.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Know who reads your Notion docs. finally."
 
-### Step 4: Market in Notion communities and r/Notion
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **Notion communities:** r/Notion, Notion Facebook groups, Notion subreddit.
+2. **Notion consultants:** Partner with consultants who set up Notion for companies.
+3. **Content marketing:** "How to track Notion engagement" — publish guides.
 
+## Common Pitfalls
+
+1. **Notion API has rate limits.** Implement smart polling. Don't track every page view in real-time.
+2. **Privacy concerns with tracking.** Some users don't want their reading tracked. Offer opt-out.
+3. **Notion could build this themselves.** Move fast, build community, create switching costs.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build Notion API integration
+- [ ] Create engagement dashboard
+- [ ] Test with 5 Notion workspaces
 
-## Marketing Channels
+### Launch
+- [ ] Post in r/Notion
+- [ ] Share in Notion Facebook groups
+- [ ] Offer free tier for early adopters
 
-- Use Notion API to track page views + engagement
-- Build a simple dashboard showing read rates
-- Offer free tier for 1 workspace, paid at $19/mo
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add team analytics
+- [ ] Build content recommendations
+- [ ] Create Notion template marketplace
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/notionlytics) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/notionlytics).
+**Disclaimer:** For learning only. Respect IP and trademarks.

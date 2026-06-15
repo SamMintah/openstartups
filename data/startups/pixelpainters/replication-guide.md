@@ -1,66 +1,73 @@
 # PixelPainters — Replication Guide
 
-> How to build a saas product like PixelPainters
+> How to build a productized design service for churches
 
 ## Overview
 
-This guide covers building a product similar to PixelPainters in the SaaS space.
+PixelPainters provides unlimited graphics for churches, created by Christian designers. $61K MRR, Rank #28, growing 7% MoM. The core insight: small churches can't afford design agencies or full-time designers, but they need graphics constantly (sermon series, events, social media).
 
-**Problem to solve:** Small churches can't afford design agencies or full-time designers
+**Key Metrics:** MRR: $61K | Rank: #28 | Growth: +7% MoM | Team: Small
 
-**Target audience:** Churches, ministries, religious orgs
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** Design services for churches and ministries.
 
-Design workflow, Trello/Notion, Stripe
+**Why underserved:** Churches have budgets but not enough for traditional agencies. Freelance designers on Fiverr are inconsistent. A productized service (unlimited requests, fixed monthly fee) solves both problems.
 
-## Build Steps
+**Competitive Landscape:** Canva (DIY), Fiverr (inconsistent), traditional agencies (expensive). PixelPainters wins on niche focus + unlimited model.
 
+## MVP Build Guide
 
-### Step 1: Hire 2–3 freelance designers from your niche
+### Core Features
+1. Request portal (Typeform or custom)
+2. Unlimited graphic requests
+3. 48-hour turnaround guarantee
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Portal | Typeform + Notion | Free |
+| Design | Figma + freelance designers | $500-1K/mo |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Build a simple request portal (Typeform + Notion)
+**Build time:** 2-3 weeks | **Cost:** $0-50/mo (plus designer costs)
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Price at $299/mo unlimited requests
+$299/mo unlimited requests. Annual plan at $299/yr (save 17%). No contracts, cancel anytime.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Unlimited church graphics for $299/mo. Less than a part-time designer."
 
-### Step 4: Find customers in church Facebook groups and pastor forums
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **Church Facebook groups:** Post samples. "Here's this week's sermon series graphics."
+2. **Pastor forums:** Participate in discussions about church marketing.
+3. **Denominational partnerships:** Offer bulk pricing to church networks.
 
+## Common Pitfalls
+
+1. **Unlimited model can be exploited.** Set fair use limits (e.g., 10 requests/month). Monitor usage.
+2. **Niche is small.** Growth ceiling exists. Expand to Christian schools, nonprofits.
+3. **Quality control with freelance designers.** Create brand guidelines. Review every output.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Hire 2-3 freelance designers
+- [ ] Build request portal
+- [ ] Create sample graphics for 5 church types
 
-## Marketing Channels
+### Launch
+- [ ] Post in 20 church Facebook groups
+- [ ] Offer first month at $149
+- [ ] Get 5 testimonials from pastors
 
-- Hire 2–3 freelance designers from your niche
-- Build a simple request portal (Typeform + Notion)
-- Price at $299/mo unlimited requests
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add video editing service
+- [ ] Expand to Christian schools
+- [ ] Build referral program
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/pixelpainters-com) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/pixelpainters-com).
+**Disclaimer:** For learning only. Respect IP and trademarks.

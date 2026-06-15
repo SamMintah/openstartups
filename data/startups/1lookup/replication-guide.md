@@ -1,66 +1,78 @@
 # 1Lookup — Replication Guide
 
-> How to build a developer tools product like 1Lookup
+> How to build a unified validation API for phone, email, and IP
 
 ## Overview
 
-This guide covers building a product similar to 1Lookup in the Developer Tools space.
+1Lookup provides real-time phone, email, and IP validation through a single API endpoint. $227K MRR, Rank #6, growing 16% MoM. The core insight: developers waste time stitching together 3-5 different validation APIs. One endpoint that does everything is worth a premium.
 
-**Problem to solve:** Developers waste time stitching together 3–5 different validation APIs
+**Key Metrics:** MRR: $227K | Rank: #6 | Growth: +16% MoM | Team: Solo/small
 
-**Target audience:** Developers, SaaS companies
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** Developer-facing data validation APIs.
 
-Node.js, API gateway, Stripe
+**Why underserved:** Twilio handles phone, Kickbox handles email, ipinfo handles IP — but nobody combines all three with a single pricing model. The "API marketplace" approach (RapidAPI) has made discovery easier but comparison shopping harder.
 
-## Build Steps
+**Competitive Landscape:** Twilio (phone-only), Kickbox (email-only), Abstract API (partial). 1Lookup wins on completeness and simplicity.
 
+## MVP Build Guide
 
-### Step 1: Wrap 3 validation providers into one API
+### Core Features
+1. Single REST endpoint: POST /validate with phone, email, or IP
+2. Response: valid/invalid + enriched data (carrier, location, role detection)
+3. Batch validation endpoint for bulk lists
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| API | Node.js + Fastify | Free |
+| Cache | Redis (Upstash) | Free tier |
+| Providers | Twilio + Kickbox + ipinfo | Pay-per-use |
+| Database | PostgreSQL | Free tier |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Launch on RapidAPI marketplace first
+**Build time:** 3-4 weeks | **Cost:** $0-50/mo (scales with usage)
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### No-Code Alternative
+Zapier + individual APIs. Limitations: no single endpoint, high latency, expensive at scale. Only viable for <100 lookups/day.
 
-### Step 3: Offer 1,000 free credits no card required
+## Pricing Strategy
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+Usage-based pricing. $0.001-0.01 per lookup depending on type and volume. Free tier: 1,000 lookups/month. Enterprise: custom volume discounts.
 
-### Step 4: Price by usage volume with enterprise plans
+**Positioning:** "One API to validate everything. No more API spaghetti."
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Customer Acquisition
 
+1. **RapidAPI marketplace:** List on RapidAPI. Many developers discover APIs here. Free tier drives trials.
+2. **Developer content:** Blog posts: "How to validate emails at scale", "Phone number validation best practices"
+3. **Cold outreach:** Contact SaaS companies with validation-heavy onboarding flows.
+
+## Common Pitfalls
+
+1. **API uptime is critical.** Use fallback providers. If Twilio is down, route to a backup. 99.9% uptime minimum.
+2. **Rate limiting is tricky.** Implement per-key rate limiting from day one. Don't let one customer hog all resources.
+3. **Enterprise sales are different.** Self-serve API ≠ enterprise contracts. Have a separate sales motion for $1K+/mo customers.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Integrate 3 providers with fallback routing
+- [ ] Build rate limiting and usage tracking
+- [ ] Create API documentation (OpenAPI/Swagger)
 
-## Marketing Channels
+### Launch
+- [ ] List on RapidAPI
+- [ ] Post on r/webdev, Indie Hackers
+- [ ] Offer 10K free lookups for early adopters
 
-- Wrap 3 validation providers into one API
-- Launch on RapidAPI marketplace first
-- Offer 1,000 free credits no card required
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Monitor uptime obsessively
+- [ ] Add batch validation endpoint
+- [ ] Begin enterprise outreach
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/1lookup) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/1lookup).
+**Disclaimer:** For learning only. Respect IP and trademarks.

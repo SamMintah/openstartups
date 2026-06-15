@@ -1,66 +1,74 @@
 # Launch Club — Replication Guide
 
-> How to build a marketing product like Launch Club
+> How to build a Reddit marketing platform for AI search visibility
 
 ## Overview
 
-This guide covers building a product similar to Launch Club in the Marketing space.
+Launch Club provides Reddit marketing for AI search visibility. Tools + content for business owners to promote products. $36K MRR, Rank #48, growing 24% MoM. The core insight: founders don't know how to use Reddit for marketing without getting banned. A tool + education combo solves this.
 
-**Problem to solve:** Founders don't know how to use Reddit for marketing without getting banned
+**Key Metrics:** MRR: $36K | Rank: #48 | Growth: +24% MoM | Team: Solo (Ken Savage)
 
-**Target audience:** SaaS founders, indie hackers
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** Reddit marketing for founders and small businesses.
 
-Reddit API, community tools, Stripe
+**Why underserved:** Reddit is the #3 website globally but most marketers don't know how to use it. Reddit's anti-spam culture makes traditional marketing fail. A tool that navigates this is valuable.
 
-## Build Steps
+**Competitive Landscape:** Hootsuite (doesn't focus on Reddit), Buffer (scheduling only), Reddit Ads (expensive). Launch Club is Reddit-specific.
 
+## MVP Build Guide
 
-### Step 1: Create a course: how to market on Reddit without getting banned
+### Core Features
+1. Subreddit finder tool (find relevant subreddits for any product)
+2. Content optimization for Reddit format
+3. Posting schedule and engagement tracking
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Node.js | Free |
+| API | Reddit API | Free |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Add a subreddit finder tool as a SaaS feature
+**Build time:** 3-4 weeks | **Cost:** $0-50/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Charge $99/mo membership
+$99/mo for the tool. Course: $299 one-time. Membership: $99/mo for ongoing access + community.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Reddit marketing without the ban hammer. Find your subreddits, post strategically."
 
-### Step 4: Grow by posting genuinely helpful Reddit marketing tips on Twitter
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **Twitter:** Share Reddit marketing tips. "How I got 10K upvotes without getting banned."
+2. **Content marketing:** Blog: "Reddit marketing guide 2026" — rank for Reddit marketing keywords.
+3. **Partnerships:** SaaS founders who successfully use Reddit.
 
+## Common Pitfalls
+
+1. **Reddit is hostile to marketing.** Easy to get banned. Your tool must teach the culture, not just the mechanics.
+2. **Course content needs constant updates.** Reddit changes rules frequently. Budget time for updates.
+3. **ROI from Reddit is hard to measure.** Build tracking links and attribution into the tool.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build subreddit finder tool
+- [ ] Create Reddit marketing course
+- [ ] Test on 10 products
 
-## Marketing Channels
+### Launch
+- [ ] Share results on Twitter
+- [ ] Launch course on Gumroad/own platform
+- [ ] Offer free subreddit analysis to 50 founders
 
-- Create a course: how to market on Reddit without getting banned
-- Add a subreddit finder tool as a SaaS feature
-- Charge $99/mo membership
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add automated posting features
+- [ ] Build community forum
+- [ ] Create case studies with traffic data
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/launch-club) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/launch-club).
+**Disclaimer:** For learning only. Respect IP and trademarks.

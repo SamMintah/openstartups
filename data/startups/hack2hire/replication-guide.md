@@ -1,66 +1,74 @@
 # Hack2hire — Replication Guide
 
-> How to build a education product like Hack2hire
+> How to build a coding interview prep platform with system design
 
 ## Overview
 
-This guide covers building a product similar to Hack2hire in the Education space.
+Hack2hire provides coding and system design practice for technical interview preparation. $46K MRR, Rank #39, growing 15% MoM. The core insight: LeetCode is gamified but doesn't teach system design or real interview strategy. A platform that combines coding practice with system design fills a gap.
 
-**Problem to solve:** LeetCode is gamified but doesn't teach system design or real interview strategy
+**Key Metrics:** MRR: $46K | Rank: #39 | Growth: +15% MoM | Team: Small
 
-**Target audience:** Software engineers preparing for FAANG
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** Technical interview prep — coding + system design combined.
 
-React, coding sandbox, Stripe
+**Why underserved:** LeetCode is great for coding but ignores system design. System Design Interview (book) is great but not interactive. Hack2hire combines both in a gamified platform.
 
-## Build Steps
+**Competitive Landscape:** LeetCode (coding only), Educative (text-based), Interviewing.io (mock interviews). Hack2hire combines coding + system design + gamification.
 
+## MVP Build Guide
 
-### Step 1: Build system design question library with diagrams
+### Core Features
+1. System design question library with architecture diagrams
+2. Mock interview mode with timer
+3. Coding challenges with test cases
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Node.js | Free |
+| Database | PostgreSQL | Free tier |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Add mock interview mode with timer
+**Build time:** 4-6 weeks | **Cost:** $50-100/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Charge $29/mo; offer 3 free problems/day
+$29/mo for full access. 3 free problems/day. Annual plan at $199/yr (43% discount).
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Ace your FAANG interview. Coding + system design in one platform."
 
-### Step 4: Distribute via r/cscareerquestions and LinkedIn
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **r/cscareerquestions:** Share free system design tips. Link to platform.
+2. **LinkedIn:** Post interview prep content. Connect with job seekers.
+3. **Coding bootcamp partnerships:** Offer student discounts.
 
+## Common Pitfalls
+
+1. **Content creation is expensive.** System design diagrams take hours to create. Budget 6 months before launch.
+2. **Competition from Educative, Interviewing.io.** Your edge is combining coding + system design + gamification.
+3. **User expectations are high.** They want job guarantees. Set expectations: "Practice platform, not placement service."
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build 50 system design questions with diagrams
+- [ ] Create coding challenge engine
+- [ ] Add mock interview timer
 
-## Marketing Channels
+### Launch
+- [ ] Post on r/cscareerquestions
+- [ ] Share on LinkedIn
+- [ ] Offer free access to 100 students
 
-- Build system design question library with diagrams
-- Add mock interview mode with timer
-- Charge $29/mo; offer 3 free problems/day
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add behavioral interview prep
+- [ ] Build community features
+- [ ] Create job board partnership
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/hack2hire) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/hack2hire).
+**Disclaimer:** For learning only. Respect IP and trademarks.

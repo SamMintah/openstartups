@@ -1,66 +1,75 @@
 # Cometly — Replication Guide
 
-> How to build a marketing product like Cometly
+> How to build marketing attribution analytics for SaaS companies
 
 ## Overview
 
-This guide covers building a product similar to Cometly in the Marketing space.
+Cometly provides marketing attribution and analytics for SaaS companies with an AI chat interface for ad data. $201K MRR, Rank #7. The core insight: iOS14 broke pixel-based attribution. Marketers need server-side tracking to understand which ads actually drive revenue.
 
-**Problem to solve:** Meta/Google pixel attribution breaks after iOS14 — marketers flying blind
+**Key Metrics:** MRR: $201K | Rank: #7 | Growth: +3% MoM | Team: Small team
 
-**Target audience:** SaaS marketing teams, performance agencies
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** SaaS marketing attribution — post-iOS14 world.
 
-React, Python, Stripe, AI
+**Why underserved:** Google Analytics last-click attribution is broken. Facebook's pixel lost 60%+ accuracy after iOS14. Server-side tracking is the answer but requires technical setup that most marketers can't do.
 
-## Build Steps
+**Competitive Landscape:** Ruler Analytics, Dreamdata, Northbeam. Cometly differentiates with AI chat interface — ask questions about your ad data in natural language.
 
+## MVP Build Guide
 
-### Step 1: Build server-side event tracking for Meta + Google
+### Core Features
+1. Server-side event tracking script (Meta CAPI + Google Enhanced Conversions)
+2. Attribution dashboard showing revenue per channel/campaign
+3. AI chat: "Which campaign drove the most signups last week?"
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Node.js | Free |
+| Database | PostgreSQL + TimescaleDB | Free tier |
+| AI | OpenAI GPT-4o | ~$0.01/query |
+| Hosting | Vercel + Railway | Free tier |
 
-### Step 2: Create a single attribution dashboard
+**Build time:** 6-8 weeks | **Cost:** $100-300/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Offer free 14-day trial, no credit card
+$99-499/mo based on monthly events tracked. Tiers: Starter (100K events), Growth (500K), Scale (2M+). Enterprise: custom pricing with dedicated support.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Know which ads actually make you money. Ask in plain English."
 
-### Step 4: Target DTC and SaaS CMOs via LinkedIn
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **LinkedIn content:** Share attribution insights. "Your Facebook ROAS is probably wrong. Here's why."
+2. **Agency partnerships:** White-label for marketing agencies. They resell to their clients.
+3. **Case studies:** "How [SaaS company] found 40% of their ad spend was wasted."
 
+## Common Pitfalls
+
+1. **Meta/Google APIs change constantly.** Budget 20% of engineering for API maintenance.
+2. **Attribution is imprecise.** Don't overpromise. Say "directionally accurate" not "exact."
+3. **Data storage costs scale fast.** Events table grows millions of rows. Implement data retention policies early.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build server-side tracking for Meta + Google
+- [ ] Create attribution dashboard
+- [ ] Add AI chat interface
 
-## Marketing Channels
+### Launch
+- [ ] Offer free attribution audit to 50 SaaS companies
+- [ ] Post on LinkedIn with data insights
+- [ ] Partner with 3 marketing agencies
 
-- Build server-side event tracking for Meta + Google
-- Create a single attribution dashboard
-- Offer free 14-day trial, no credit card
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add multi-touch attribution models
+- [ ] Build integrations with HubSpot, Salesforce
+- [ ] Scale to 100 paying customers
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/cometly) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/cometly).
+**Disclaimer:** For learning only. Respect IP and trademarks.

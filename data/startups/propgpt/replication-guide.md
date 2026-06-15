@@ -1,66 +1,76 @@
 # PropGPT — Replication Guide
 
-> How to build a ai product like PropGPT
+> How to build an AI sports betting analysis app
 
 ## Overview
 
-This guide covers building a product similar to PropGPT in the AI space.
+PropGPT is an AI sports betting props analysis app — the first AI app dedicated to transforming sports betting strategy. $96K MRR, Rank #17. The core insight: sports bettors lack data-driven tools to evaluate prop bets efficiently. AI can aggregate stats and identify value bets.
 
-**Problem to solve:** Sports bettors lack data-driven tools to evaluate prop bets efficiently
+**Key Metrics:** MRR: $96K | Rank: #17 | Growth: +3% MoM | Team: Small
 
-**Target audience:** Sports bettors, fantasy players
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** AI-powered sports betting analysis — props specifically.
 
-Mobile (iOS/Android), AI/ML, Stripe/IAP
+**Why underserved:** Sports betting is $100B+ globally. Existing tools are either expensive pro services or basic stat lookups. AI can analyze player trends, injury impacts, and matchup data to find value in prop bets.
 
-## Build Steps
+**Competitive Landscape:** Action Network (news, not analysis), TheScore (basic stats), PrizePicks (platform, not analysis). PropGPT is the AI layer on top of betting data.
 
+## MVP Build Guide
 
-### Step 1: Aggregate public player stats + injury data
+### Core Features
+1. Aggregated player stats + injury data
+2. AI model to score prop bets by expected value
+3. Mobile app with daily recommendations
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Mobile | React Native | Free |
+| Backend | Python + FastAPI | Free |
+| AI | OpenAI / custom ML model | $50-100/mo |
+| Data | Sports data APIs (SportsDataIO) | $50-100/mo |
+| Database | PostgreSQL | Free tier |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Build AI model to score prop bets by value
+**Build time:** 6-8 weeks | **Cost:** $100-200/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Launch as iOS app with $9.99/mo subscription
+$9.99/mo for standard access. $29.99/mo for premium (more props, real-time alerts). No free tier — bettors expect to pay for edges.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "AI-powered prop analysis. Data-driven bets, not gut feelings."
 
-### Step 4: Market via sports betting subreddits and Twitter
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **Reddit:** r/sportsbook, r/dfsports. Share insights, not promotions.
+2. **Twitter:** Post daily prop analysis. Build following before selling.
+3. **Affiliate:** Partner with sportsbooks for referral revenue.
 
+## Common Pitfalls
+
+1. **Sports data APIs are expensive.** Budget $500+/mo for comprehensive data. Start with one sport (NFL or NBA).
+2. **Gambling regulations vary.** Consult legal counsel. You're providing analysis, not taking bets.
+3. **User expectations are unrealistically high.** They want guaranteed wins. Set expectations: "Data-driven, not guaranteed."
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Integrate sports data API for one sport
+- [ ] Build AI scoring model
+- [ ] Create mobile app MVP
 
-## Marketing Channels
+### Launch
+- [ ] Post daily analysis on Twitter
+- [ ] Share on r/sportsbook
+- [ ] Launch at $9.99/mo
 
-- Aggregate public player stats + injury data
-- Build AI model to score prop bets by value
-- Launch as iOS app with $9.99/mo subscription
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add more sports (NFL, NBA, MLB, NHL)
+- [ ] Build parlay builder feature
+- [ ] Add live betting alerts
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/propgpt-ai-props-analysis) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/propgpt-ai-props-analysis).
+**Disclaimer:** For learning only. Respect IP and trademarks.

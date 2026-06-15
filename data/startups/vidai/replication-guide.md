@@ -1,66 +1,76 @@
 # Vid.AI — Replication Guide
 
-> How to build a ai product like Vid.AI
+> How to build an AI video generation platform
 
 ## Overview
 
-This guide covers building a product similar to Vid.AI in the AI space.
+Vid.AI turns any idea or script into ready-to-post videos. AI generates voiceovers, visuals, edits in minutes. $93K MRR, Rank #18. The core insight: creators and marketers need video content at scale but can't afford video editors or the time to edit manually.
 
-**Problem to solve:** Creators and marketers need video content at scale without video editing skills
+**Key Metrics:** MRR: $93K | Rank: #18 | Growth: +2% MoM | Team: Small
 
-**Target audience:** Content creators, marketers, small businesses
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** AI video generation for content creators and marketers.
 
-Python, FFmpeg, AI video models, Stripe
+**Why underserved:** Video is the highest-engagement content format but creation is slow and expensive. AI can generate B-roll, voiceovers, and basic edits — but most tools require technical skill. Vid.AI makes it prompt-based.
 
-## Build Steps
+**Competitive Landscape:** Runway (pro tools), Pika (experimental), Synthesia (talking heads). Vid.AI focuses on social media video format (short-form, vertical).
 
+## MVP Build Guide
 
-### Step 1: Use ElevenLabs API for voiceovers, DALL-E for visuals
+### Core Features
+1. Script → video pipeline (text input → video output)
+2. AI voiceover generation (ElevenLabs)
+3. AI visual generation (DALL-E/Runway) + auto-editing
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Python + FFmpeg | Free |
+| Voice | ElevenLabs API | ~$0.01/sec |
+| Visuals | DALL-E 3 / Runway | ~$0.04/image |
+| Hosting | AWS Lambda | Pay-per-use |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Build simple script → video pipeline
+**Build time:** 4-6 weeks | **Cost:** $100-300/mo (scales with usage)
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Offer 5 free videos/month, then $29/mo
+$29/mo for 10 videos. $99/mo for unlimited. Credits-based for premium voices/visuals.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Turn scripts into social videos in 60 seconds."
 
-### Step 4: Grow via TikTok demos showing before/after
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **TikTok demos:** Show before/after. "I wrote this script and got a video in 60 seconds."
+2. **Content marketing:** Blog: "How to create 30 days of video content in 1 hour"
+3. **Creator partnerships:** Free access for creators with 10K+ followers. They post about it.
 
+## Common Pitfalls
+
+1. **AI video quality is inconsistent.** Set expectations: "AI-assisted, not Hollywood." Offer human review option.
+2. **API costs are the biggest expense.** Cache common visuals. Use cheaper models for drafts, premium for final.
+3. **Copyright with AI content is unresolved.** Use only commercially licensed AI models. Add disclaimers.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build script → video pipeline
+- [ ] Integrate ElevenLabs + DALL-E
+- [ ] Create 10 sample videos for marketing
 
-## Marketing Channels
+### Launch
+- [ ] Post TikTok demos daily
+- [ ] Launch on Product Hunt
+- [ ] Partner with 5 creators
 
-- Use ElevenLabs API for voiceovers, DALL-E for visuals
-- Build simple script → video pipeline
-- Offer 5 free videos/month, then $29/mo
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add more video styles (talking head, tutorial, ad)
+- [ ] Build template library
+- [ ] Add team/collaboration features
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/vidai-llc) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/vidai-llc).
+**Disclaimer:** For learning only. Respect IP and trademarks.

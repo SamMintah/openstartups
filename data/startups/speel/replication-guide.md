@@ -1,66 +1,76 @@
 # Speel — Replication Guide
 
-> How to build a ai product like Speel
+> How to build an AI UGC video generation platform for ads
 
 ## Overview
 
-This guide covers building a product similar to Speel in the AI space.
+Speel generates AI UGC-style videos and images for ads. 0 to $1M ARR in 3 months. $66K MRR, Rank #24. The core insight: brands need authentic-looking UGC ad creatives but real UGC is slow and expensive. AI can generate UGC-style content at scale.
 
-**Problem to solve:** Brands need authentic-looking UGC ad creatives but real UGC is slow and expensive
+**Key Metrics:** MRR: $66K | Rank: #24 | Team: Small
 
-**Target audience:** DTC brands, performance marketers
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** AI-generated UGC for performance marketing.
 
-AI video generation, Stripe
+**Why underserved:** UGC ads convert 4x better than branded content but sourcing real UGC costs $200-500 per video. AI can generate similar quality at 1/10th the cost and 100x the speed.
 
-## Build Steps
+**Competitive Landscape:** AdCreative.ai (different format), Pika (general video), Runway (pro tools). Speel specifically targets UGC ad format.
 
+## MVP Build Guide
 
-### Step 1: Use AI video models (Runway, Pika) as backend
+### Core Features
+1. Prompt → UGC video pipeline
+2. Multiple UGC styles (testimonial, unboxing, demo)
+3. Export in ad formats (9:16, 1:1, 16:9)
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Python | Free |
+| Video AI | Runway / Pika API | $0.05-0.10/sec |
+| Voice | ElevenLabs | $0.01/sec |
+| Hosting | AWS | Pay-per-use |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Build a prompt → UGC video output UI
+**Build time:** 4-6 weeks | **Cost:** $200-500/mo (scales with usage)
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Offer 10 free credits, then $99/mo
+$99/mo for 50 credits. $299/mo for 200 credits. Enterprise: custom.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "AI UGC ads at 1/10th the cost. Launch 100 ads in the time it takes to film 1."
 
-### Step 4: Sell to Shopify DTC brands via Facebook ad groups
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **Shopify DTC communities:** Facebook groups for DTC brands. Show before/after ad performance.
+2. **Content marketing:** "How we generated 100 UGC ads in 1 day"
+3. **Partnerships:** Ad agencies that manage DTC brands.
 
+## Common Pitfalls
+
+1. **AI video quality is inconsistent.** Offer a human review/edit option for premium tier.
+2. **API costs at scale.** Cache common styles. Use cheaper models for drafts.
+3. **Brands may not trust AI UGC.** Show performance data. "AI UGC gets 3.2x CTR vs branded."
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build prompt → video pipeline
+- [ ] Create 20 sample UGC videos
+- [ ] Test ad performance vs real UGC
 
-## Marketing Channels
+### Launch
+- [ ] Post in Shopify DTC Facebook groups
+- [ ] Launch on Product Hunt
+- [ ] Offer 10 free credits to first 100 users
 
-- Use AI video models (Runway, Pika) as backend
-- Build a prompt → UGC video output UI
-- Offer 10 free credits, then $99/mo
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add more UGC styles
+- [ ] Build A/B testing for ad variants
+- [ ] Create agency dashboard
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/speel-co) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/speel-co).
+**Disclaimer:** For learning only. Respect IP and trademarks.

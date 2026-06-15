@@ -1,66 +1,75 @@
 # PROSP — Replication Guide
 
-> How to build a marketing product like PROSP
+> How to build AI-powered LinkedIn outreach automation
 
 ## Overview
 
-This guide covers building a product similar to PROSP in the Marketing space.
+PROSP automates LinkedIn outreach with AI. Prospecting + personalized message sequences. $128K MRR, Rank #14. The core insight: sales teams spend hours on manual LinkedIn prospecting with low reply rates. AI personalization at scale changes the math.
 
-**Problem to solve:** Sales teams spend hours on manual LinkedIn prospecting with low reply rates
+**Key Metrics:** MRR: $128K | Rank: #14 | Team: Small
 
-**Target audience:** B2B sales teams, founders
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** B2B sales automation — LinkedIn specifically.
 
-LinkedIn API, AI, Stripe
+**Why underserved:** LinkedIn is the #1 B2B prospecting channel but manual outreach doesn't scale. Existing tools (LinkedHelper, Dux-Soup) are clunky and lack AI. PROSP combines automation with AI-written messages.
 
-## Build Steps
+**Competitive Landscape:** LinkedHelper (automation only), Waalaxy (French market), Lemlist (email-focused). PROSP differentiates on AI personalization quality.
 
+## MVP Build Guide
 
-### Step 1: Build LinkedIn connection + message automation
+### Core Features
+1. LinkedIn connection request automation
+2. AI-personalized follow-up messages
+3. Campaign dashboard with reply tracking
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Backend | Python + Selenium/Playwright | Free |
+| AI | OpenAI GPT-4o | ~$0.005/message |
+| Frontend | Next.js | Free |
+| Database | PostgreSQL | Free tier |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Use AI to personalize openers from profile data
+**Build time:** 4-6 weeks | **Cost:** $50-100/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Offer 7-day free trial, then $99/mo
+$99/mo per seat. Team pricing at $79/seat for 5+. Free 7-day trial. No long-term contracts.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "10x your LinkedIn pipeline without hiring an SDR."
 
-### Step 4: Distribute via LinkedIn influencers and sales communities
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **LinkedIn influencers:** Partner with 5 sales influencers. They promote PROSP to their audience.
+2. **Sales communities:** Post in Sales Hacker, Revenue Collective, LinkedIn sales groups.
+3. **Cold outreach:** Use PROSP itself to prospect potential customers (meta-marketing).
 
+## Common Pitfalls
+
+1. **LinkedIn account bans are real.** Implement human-like delays, rotation, and daily limits. This is the #1 risk.
+2. **AI personalization must be good.** Bad AI messages = low reply rates = churn. Invest heavily in prompt engineering.
+3. **LinkedIn ToS is a gray area.** Automation violates LinkedIn's terms. Have a legal review and clear user warnings.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build connection + messaging automation
+- [ ] Implement rate limiting and human-like behavior
+- [ ] Create AI personalization engine
 
-## Marketing Channels
+### Launch
+- [ ] Partner with 3 LinkedIn influencers
+- [ ] Post in sales communities
+- [ ] Offer 7-day free trial
 
-- Build LinkedIn connection + message automation
-- Use AI to personalize openers from profile data
-- Offer 7-day free trial, then $99/mo
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add CRM integrations (HubSpot, Salesforce)
+- [ ] Build A/B testing for message variants
+- [ ] Create case studies with reply rate data
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/prosp) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/prosp).
+**Disclaimer:** For learning only. Respect IP and trademarks.

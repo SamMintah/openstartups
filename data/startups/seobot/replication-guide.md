@@ -1,66 +1,75 @@
 # SEOBOT — Replication Guide
 
-> How to build a marketing product like SEOBOT
+> How to build an AI agent for SEO content automation
 
 ## Overview
 
-This guide covers building a product similar to SEOBOT in the Marketing space.
+SEOBOT is an AI agent for SEO — keywords, research, blog, mini apps, programmatic SEO and more. $58K MRR, Rank #32, growing 10% MoM. The core insight: founders need SEO content at scale but can't afford agencies or big teams. An AI agent that handles the entire SEO pipeline changes the economics.
 
-**Problem to solve:** Founders need SEO content at scale but can't afford agencies or big teams
+**Key Metrics:** MRR: $58K | Rank: #32 | Growth: +10% MoM | Team: Solo (John Rush)
 
-**Target audience:** SaaS founders, content teams
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** AI-powered SEO content automation.
 
-Next.js, AI APIs, Stripe
+**Why underserved:** Creating SEO content requires keyword research, writing, optimization, publishing, and monitoring. Each step is manual. An AI agent that automates the full pipeline is 10x faster than hiring writers.
 
-## Build Steps
+**Competitive Landscape:** Jasper (writing only), SurferSEO (optimization only), Writer.com (enterprise). SEOBOT handles the full pipeline.
 
+## MVP Build Guide
 
-### Step 1: Build keyword → SEO article AI pipeline
+### Core Features
+1. Keyword research → content brief automation
+2. AI article writing with SEO optimization
+3. Programmatic SEO page generator
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Python | Free |
+| AI | OpenAI GPT-4o | ~$0.01/article |
+| SEO Data | Ahrefs API | $99/mo |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Add programmatic SEO page generator
+**Build time:** 4-6 weeks | **Cost:** $100-200/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Price at $99/mo, integrate with any CMS
+$99/mo for individuals. $299/mo for agencies. Enterprise: custom.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Your AI SEO team. From keyword to published article in 10 minutes."
 
-### Step 4: Distribute through Indiehackers + Twitter building-in-public
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **Indiehackers:** Share MRR updates and build-in-public content.
+2. **Twitter:** Post SEO insights and results. "This article ranked #3 in 2 weeks."
+3. **SEO communities:** Participate in SEO forums and groups.
 
+## Common Pitfalls
+
+1. **AI content quality varies.** Always have human review option. Don't auto-publish without review.
+2. **Google penalties for AI content are real.** Add human touches, unique data, and genuine expertise.
+3. **Competition from Jasper, SurferSEO.** Your edge is full pipeline automation, not just writing.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build keyword → content brief pipeline
+- [ ] Create AI article writer with SEO optimization
+- [ ] Add programmatic SEO page generator
 
-## Marketing Channels
+### Launch
+- [ ] Post on Indiehackers with results
+- [ ] Share on Twitter with before/after rankings
+- [ ] Offer 7-day free trial
 
-- Build keyword → SEO article AI pipeline
-- Add programmatic SEO page generator
-- Price at $99/mo, integrate with any CMS
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add WordPress/CMS integration
+- [ ] Build content performance tracking
+- [ ] Create agency dashboard
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/seobot) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/seobot).
+**Disclaimer:** For learning only. Respect IP and trademarks.

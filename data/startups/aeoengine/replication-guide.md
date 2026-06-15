@@ -1,66 +1,75 @@
 # AEO Engine — Replication Guide
 
-> How to build a marketing product like AEO Engine
+> How to build AI search visibility optimization tools
 
 ## Overview
 
-This guide covers building a product similar to AEO Engine in the Marketing space.
+AEO Engine is a network of AI agents that research, create, optimize, and amplify content across Google, ChatGPT, Perplexity, AI Overviews. $61K MRR, Rank #27, growing 17% MoM. The core insight: brands need visibility across AI search engines, not just traditional Google. AEO (Answer Engine Optimization) is the new SEO.
 
-**Problem to solve:** Brands need visibility across AI search engines, not just traditional Google
+**Key Metrics:** MRR: $61K | Rank: #27 | Growth: +17% MoM | Team: Small
 
-**Target audience:** B2B marketers, content teams
+## Market Opportunity
 
-## Tech Stack Reference
+**Niche:** AI search optimization — optimizing for ChatGPT, Perplexity, AI Overviews.
 
-AI agents, content APIs, Stripe
+**Why underserved:** Traditional SEO optimizes for Google blue links. But AI search engines pull from different sources and use different ranking signals. Nobody is optimizing for this yet.
 
-## Build Steps
+**Competitive Landscape:** Early market. SurferSEO (traditional SEO), Clearscope (content optimization). Nobody is specifically AEO-focused.
 
+## MVP Build Guide
 
-### Step 1: Build AEO audit: where does a brand appear in AI answers
+### Core Features
+1. AEO audit: where does a brand appear in AI answers
+2. Content optimization recommendations for AI search
+3. Monitoring dashboard for AI visibility
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+### Tech Stack
+| Layer | Tool | Cost |
+|-------|------|------|
+| Frontend | Next.js | Free |
+| Backend | Python | Free |
+| AI | OpenAI + Perplexity API | $50-100/mo |
+| Scraping | Playwright | Free |
+| Payments | Stripe | 2.9%+$0.30 |
 
-### Step 2: Create content optimization recommendations
+**Build time:** 4-6 weeks | **Cost:** $100-300/mo
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+## Pricing Strategy
 
-### Step 3: Charge $500–2k/mo for managed AEO
+Tool: $99/mo. Managed AEO services: $500-2K/mo. The tool is the funnel for managed services.
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+**Positioning:** "Your brand isn't showing up in ChatGPT. We fix that."
 
-### Step 4: Target SaaS companies scared of AI search disruption
+## Customer Acquisition
 
-Details for implementing this step depend on your specific tech stack and market. Focus on delivering value quickly and iterating based on user feedback.
+1. **Target SaaS companies** scared of AI search disruption. They're already searching for solutions.
+2. **Content marketing:** "How to appear in ChatGPT answers" — publish research.
+3. **LinkedIn:** Share AEO insights. "Brand X appeared in 0% of ChatGPT answers. After AEO: 40%."
 
+## Common Pitfalls
+
+1. **AI search is nascent.** The market may not be ready. Educate before selling.
+2. **Results are hard to measure.** Build clear before/after metrics. Show visibility percentage changes.
+3. **Requires deep AI/SEO expertise.** Hire or partner with people who understand both.
 
 ## Launch Checklist
 
-- [ ] MVP functional with core features
-- [ ] Landing page with clear value proposition
-- [ ] Payment integration (Stripe)
-- [ ] Analytics tracking
-- [ ] Initial user outreach
-- [ ] Feedback collection system
+### Pre-Launch
+- [ ] Build AEO audit tool
+- [ ] Test on 10 brands
+- [ ] Create case studies with before/after data
 
-## Marketing Channels
+### Launch
+- [ ] Publish AEO research on LinkedIn
+- [ ] Offer free AEO audit to 50 SaaS companies
+- [ ] Launch on Product Hunt
 
-- Build AEO audit: where does a brand appear in AI answers
-- Create content optimization recommendations
-- Charge $500–2k/mo for managed AEO
-
-## Cost Estimate
-
-| Item | Monthly Cost |
-|------|-------------|
-| Hosting | $0–$20 |
-| Domain | $1 |
-| Third-party APIs | $20–$100 |
-| Stripe fees | 2.9% + $0.30/txn |
-| **Total** | **~$21–$121/mo** |
+### Post-Launch
+- [ ] Add monitoring dashboard
+- [ ] Build content optimization engine
+- [ ] Scale managed services
 
 ---
 
-**Attribution:** Build steps sourced from [TrustMRR](https://trustmrr.com/startup/aeo-engine) — for educational purposes.
-
-**Disclaimer:** This is for learning and inspiration. Respect intellectual property and trademarks when replicating.
+**Attribution:** Educational purposes. Data from [TrustMRR](https://trustmrr.com/startup/aeo-engine).
+**Disclaimer:** For learning only. Respect IP and trademarks.
