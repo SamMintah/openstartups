@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "last_updated": "2026-06-14",
-  "source": "TrustMRR",
-  "total_mrr": 8600000,
-  "total_startups": 24,
+  "last_updated": "2026-06-15",
+  "source": "TrustMRR, Baremetrics Open Startups, Ghost official metrics",
+  "total_mrr": 7950357,
+  "total_startups": 34,
   "startups": [
     {
       "slug": "stan",
@@ -18,6 +18,34 @@
       "website": "https://stan.store"
     },
     {
+      "slug": "ghost",
+      "name": "Ghost",
+      "mrr": 895920,
+      "currency": "$",
+      "ranked": null,
+      "category": "SaaS",
+      "description": "Open source publishing and membership platform for creators, newsletters, and independent media businesses.",
+      "team_size": "Team",
+      "open_source": true,
+      "source": "Ghost official metrics",
+      "source_url": "https://ghost.org/about/#metrics",
+      "website": "https://ghost.org"
+    },
+    {
+      "slug": "rb2b",
+      "name": "RB2B",
+      "mrr": 771529,
+      "currency": "$",
+      "ranked": null,
+      "category": "Marketing",
+      "description": "B2B visitor identification for sales teams. Turns anonymous website traffic into company and contact-level prospecting signals.",
+      "team_size": "Team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://rb2b.baremetrics.com",
+      "website": "https://rb2b.com"
+    },
+    {
       "slug": "rezi",
       "name": "Rezi",
       "mrr": 270423,
@@ -29,6 +57,20 @@
       "open_source": false,
       "trustmrr_url": "https://trustmrr.com/startup/rezi",
       "website": "https://rezi.ai"
+    },
+    {
+      "slug": "grokability",
+      "name": "Grokability",
+      "mrr": 240734,
+      "currency": "$",
+      "ranked": null,
+      "category": "Developer Tools",
+      "description": "Company behind Snipe-IT, an open source IT asset management platform with hosted subscriptions and support.",
+      "team_size": "Team",
+      "open_source": true,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://grokability-stats.baremetrics.com",
+      "website": "https://grokability.com"
     },
     {
       "slug": "kibu",
@@ -107,6 +149,20 @@
       "open_source": false,
       "trustmrr_url": "https://trustmrr.com/startup/prosp",
       "website": "https://prosp.ai"
+    },
+    {
+      "slug": "super",
+      "name": "Super",
+      "mrr": 96486,
+      "currency": "$",
+      "ranked": null,
+      "category": "SaaS",
+      "description": "Website builder that turns Notion pages into fast, polished websites with custom domains and themes.",
+      "team_size": "Team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://app.baremetrics.com/api/public_data.json",
+      "website": "https://super.so"
     },
     {
       "slug": "propgpt",
@@ -315,6 +371,90 @@
       "open_source": false,
       "trustmrr_url": "https://trustmrr.com/startup/virlo",
       "website": "https://virlo.ai"
+    },
+    {
+      "slug": "waim",
+      "name": "Wandering Aimfully",
+      "mrr": 14840,
+      "currency": "$",
+      "ranked": null,
+      "category": "Education",
+      "description": "Membership and education business for creative entrepreneurs building calmer, more intentional online businesses.",
+      "team_size": "Small team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://waim.baremetrics.com",
+      "website": "https://wanderingaimfully.com"
+    },
+    {
+      "slug": "oneforge",
+      "name": "1Forge",
+      "mrr": 8479,
+      "currency": "$",
+      "ranked": null,
+      "category": "Developer Tools",
+      "description": "Foreign exchange market data API for developers who need currency rates in apps and trading workflows.",
+      "team_size": "Small team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://1forgeopen.baremetrics.com",
+      "website": "https://1forge.com"
+    },
+    {
+      "slug": "friendly",
+      "name": "Friendly",
+      "mrr": 6440,
+      "currency": "CHF",
+      "ranked": null,
+      "category": "Marketing",
+      "description": "Privacy-friendly marketing and analytics services with hosted tools for organizations that want compliant alternatives.",
+      "team_size": "Small team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://friendly.baremetrics.com",
+      "website": "https://friendly.is"
+    },
+    {
+      "slug": "moltsets",
+      "name": "MoltSets",
+      "mrr": 1935,
+      "currency": "$",
+      "ranked": null,
+      "category": "SaaS",
+      "description": "Niche subscription software with a small but paying customer base, reported publicly through Baremetrics.",
+      "team_size": "Small team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://moltsets.baremetrics.com",
+      "website": "https://moltsets.com"
+    },
+    {
+      "slug": "syncforynab",
+      "name": "Sync for YNAB",
+      "mrr": 615,
+      "currency": "GBP",
+      "ranked": null,
+      "category": "SaaS",
+      "description": "Bank feed syncing utility for YNAB users who need smoother account imports in unsupported markets.",
+      "team_size": "Small team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://syncforynab.baremetrics.com",
+      "website": "https://syncforynab.com"
+    },
+    {
+      "slug": "ifnoreply",
+      "name": "If No Reply",
+      "mrr": 0,
+      "currency": "GBP",
+      "ranked": null,
+      "category": "Marketing",
+      "description": "Email follow-up automation product whose public Baremetrics dashboard currently reports no active MRR.",
+      "team_size": "Small team",
+      "open_source": false,
+      "source": "Baremetrics Open Startups",
+      "source_url": "https://ifnoreply.baremetrics.com",
+      "website": "https://ifnoreply.com"
     }
   ]
 }

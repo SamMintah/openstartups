@@ -1,0 +1,22 @@
+{
+  "startup": "Wandering Aimfully",
+  "slug": "waim",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://waim.baremetrics.com",
+  "website": "https://wanderingaimfully.com",
+  "category": "Education",
+  "currency": "$",
+  "metrics": {
+    "mrr": 14840,
+    "active_subscribers": 149,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "149 customers"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "startup": "RB2B",
+  "slug": "rb2b",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://rb2b.baremetrics.com",
+  "website": "https://rb2b.com",
+  "category": "Marketing",
+  "currency": "$",
+  "metrics": {
+    "mrr": 771529,
+    "active_subscribers": 3663,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "3663 customers"
+  }
+}

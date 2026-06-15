@@ -1,0 +1,22 @@
+{
+  "startup": "Sync for YNAB",
+  "slug": "syncforynab",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://syncforynab.baremetrics.com",
+  "website": "https://syncforynab.com",
+  "category": "SaaS",
+  "currency": "GBP",
+  "metrics": {
+    "mrr": 615,
+    "active_subscribers": 170,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "170 customers"
+  }
+}

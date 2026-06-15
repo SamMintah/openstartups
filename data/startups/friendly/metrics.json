@@ -1,0 +1,22 @@
+{
+  "startup": "Friendly",
+  "slug": "friendly",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://friendly.baremetrics.com",
+  "website": "https://friendly.is",
+  "category": "Marketing",
+  "currency": "CHF",
+  "metrics": {
+    "mrr": 6440,
+    "active_subscribers": 60,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "60 customers"
+  }
+}

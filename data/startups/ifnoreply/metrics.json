@@ -1,0 +1,23 @@
+{
+  "startup": "If No Reply",
+  "slug": "ifnoreply",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://ifnoreply.baremetrics.com",
+  "website": "https://ifnoreply.com",
+  "category": "Marketing",
+  "currency": "GBP",
+  "metrics": {
+    "mrr": 0,
+    "active_subscribers": 0,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "0 customers"
+  },
+  "notes": "Public dashboard currently reports zero MRR and zero customers."
+}

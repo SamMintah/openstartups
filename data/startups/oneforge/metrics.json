@@ -1,0 +1,22 @@
+{
+  "startup": "1Forge",
+  "slug": "oneforge",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://1forgeopen.baremetrics.com",
+  "website": "https://1forge.com",
+  "category": "Developer Tools",
+  "currency": "$",
+  "metrics": {
+    "mrr": 8479,
+    "active_subscribers": 173,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B developers",
+    "size": "173 customers"
+  }
+}

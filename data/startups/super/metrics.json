@@ -1,0 +1,22 @@
+{
+  "startup": "Super",
+  "slug": "super",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://app.baremetrics.com/api/public_data.json",
+  "website": "https://super.so",
+  "category": "SaaS",
+  "currency": "$",
+  "metrics": {
+    "mrr": 96486,
+    "active_subscribers": 5137,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "5137 customers"
+  }
+}

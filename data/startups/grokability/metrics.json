@@ -1,0 +1,22 @@
+{
+  "startup": "Grokability",
+  "slug": "grokability",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://grokability-stats.baremetrics.com",
+  "website": "https://grokability.com",
+  "category": "Developer Tools",
+  "currency": "$",
+  "metrics": {
+    "mrr": 240734,
+    "active_subscribers": 5703,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B developers",
+    "size": "5703 customers"
+  }
+}

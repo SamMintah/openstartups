@@ -1,12 +1,12 @@
 # Open Startups
 
-> Open database of profitable startups with complete replication playbooks, business models, tech stacks, and step-by-step guides. Learn from real $1K–$3.6M+ MRR companies.
+> Open database of profitable startups with complete replication playbooks, business models, tech stacks, and step-by-step guides. Learn from real verified MRR companies.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Startups](https://img.shields.io/badge/startups-24-blue.svg)](data/startups/)
-[![Total MRR](https://img.shields.io/badge/total%20MRR-%248.6M-green.svg)](data/index.json)
-[![TrustMRR](https://img.shields.io/badge/data%20source-TrustMRR-orange.svg)](https://trustmrr.com)
+[![Startups](https://img.shields.io/badge/startups-34-blue.svg)](data/startups/)
+[![Total MRR](https://img.shields.io/badge/reported%20MRR-%247.9M-green.svg)](data/index.json)
+[![Sources](https://img.shields.io/badge/data%20sources-verified-orange.svg)](data/index.json)
 
 ---
 
@@ -18,20 +18,23 @@ A free, community-driven collection of **real profitable startups** with detaile
 - Business model, pricing, and revenue data
 - Full tech stack breakdown
 - Step-by-step replication guide (from MVP to launch)
-- Verified metrics from TrustMRR
+- Verified metrics from TrustMRR, Baremetrics Open Startups, and official company pages
 
 **Goal:** Help indie hackers and bootstrappers learn from and replicate successful businesses.
 
 ## Browse Startups
 
-24 profitable startups with Stripe-verified revenue from [TrustMRR](https://trustmrr.com). Total MRR: **$8.6M+**
+34 profitable startups with source-attributed revenue from [TrustMRR](https://trustmrr.com), [Baremetrics Open Startups](https://baremetrics.com/open-startups), and official company pages. Reported MRR: **$7.9M+**
 
 ### Tier 1: $100K+ MRR
 
 | Startup | MRR | Rank | Category | Guide |
 |---------|-----|------|----------|-------|
 | [Stan](data/startups/stan/) | $3.6M | #1 | SaaS | [Guide](data/startups/stan/replication-guide.md) |
+| [Ghost](data/startups/ghost/) | $896K | Official | SaaS | [Guide](data/startups/ghost/replication-guide.md) |
+| [RB2B](data/startups/rb2b/) | $772K | Baremetrics | Marketing | [Guide](data/startups/rb2b/replication-guide.md) |
 | [Rezi](data/startups/rezi/) | $270K | #4 | AI | [Guide](data/startups/rezi/replication-guide.md) |
+| [Grokability](data/startups/grokability/) | $241K | Baremetrics | Dev Tools | [Guide](data/startups/grokability/replication-guide.md) |
 | [Kibu](data/startups/kibu/) | $234K | #5 | SaaS | [Guide](data/startups/kibu/replication-guide.md) |
 | [1Lookup](data/startups/1lookup/) | $227K | #6 | Dev Tools | [Guide](data/startups/1lookup/replication-guide.md) |
 | [Cometly](data/startups/cometly/) | $201K | #7 | Marketing | [Guide](data/startups/cometly/replication-guide.md) |
@@ -46,6 +49,7 @@ A free, community-driven collection of **real profitable startups** with detaile
 | [PropGPT](data/startups/propgpt/) | $96K | #17 | AI | [Guide](data/startups/propgpt/replication-guide.md) |
 | [Vid.AI](data/startups/vidai/) | $93K | #18 | AI | [Guide](data/startups/vidai/replication-guide.md) |
 | [Codédex](data/startups/codedex/) | $87K | #19 | Education | [Guide](data/startups/codedex/replication-guide.md) |
+| [Super](data/startups/super/) | $96K | Baremetrics | SaaS | [Guide](data/startups/super/replication-guide.md) |
 | [Upscale](data/startups/upscale/) | $69K | #22 | SaaS | [Guide](data/startups/upscale/replication-guide.md) |
 | [Speel](data/startups/speel/) | $66K | #24 | AI | [Guide](data/startups/speel/replication-guide.md) |
 | [Indexsy](data/startups/indexsy/) | $65K | #25 | Marketing | [Guide](data/startups/indexsy/replication-guide.md) |
@@ -65,6 +69,17 @@ A free, community-driven collection of **real profitable startups** with detaile
 | [Launch Club](data/startups/launch-club/) | $36K | #48 | Marketing | [Guide](data/startups/launch-club/replication-guide.md) |
 | [Virlo](data/startups/virlo/) | $36K | #50 | SaaS | [Guide](data/startups/virlo/replication-guide.md) |
 
+### Additional Verified Sources
+
+| Startup | MRR | Source | Category | Guide |
+|---------|-----|--------|----------|-------|
+| [Wandering Aimfully](data/startups/waim/) | $15K | Baremetrics | Education | [Guide](data/startups/waim/replication-guide.md) |
+| [1Forge](data/startups/oneforge/) | $8K | Baremetrics | Dev Tools | [Guide](data/startups/oneforge/replication-guide.md) |
+| [Friendly](data/startups/friendly/) | CHF 6K | Baremetrics | Marketing | [Guide](data/startups/friendly/replication-guide.md) |
+| [MoltSets](data/startups/moltsets/) | $2K | Baremetrics | SaaS | [Guide](data/startups/moltsets/replication-guide.md) |
+| [Sync for YNAB](data/startups/syncforynab/) | GBP 615 | Baremetrics | SaaS | [Guide](data/startups/syncforynab/replication-guide.md) |
+| [If No Reply](data/startups/ifnoreply/) | GBP 0 | Baremetrics | Marketing | [Guide](data/startups/ifnoreply/replication-guide.md) |
+
 ## How to Use
 
 1. **Browse** the `data/startups/` directory
@@ -83,7 +98,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for:
 
 ## Data Sources
 
-Revenue data is verified via [TrustMRR](https://trustmrr.com) Stripe API integration. We gratefully acknowledge TrustMRR as our primary data source.
+Revenue data is sourced from [TrustMRR](https://trustmrr.com), [Baremetrics Open Startups](https://baremetrics.com/open-startups), and official company pages. Each startup entry includes source attribution.
 
 ## Support This Project
 

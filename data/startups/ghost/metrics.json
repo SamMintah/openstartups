@@ -1,0 +1,22 @@
+{
+  "startup": "Ghost",
+  "slug": "ghost",
+  "last_updated": "2026-06-15",
+  "source": "Ghost official metrics",
+  "source_url": "https://ghost.org/about/#metrics",
+  "website": "https://ghost.org",
+  "category": "SaaS",
+  "currency": "$",
+  "metrics": {
+    "mrr": 895920,
+    "active_subscribers": null,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "Public metric not listed"
+  }
+}

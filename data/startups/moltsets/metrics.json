@@ -1,0 +1,22 @@
+{
+  "startup": "MoltSets",
+  "slug": "moltsets",
+  "last_updated": "2026-06-15",
+  "source": "Baremetrics Open Startups",
+  "source_url": "https://moltsets.baremetrics.com",
+  "website": "https://moltsets.com",
+  "category": "SaaS",
+  "currency": "$",
+  "metrics": {
+    "mrr": 1935,
+    "active_subscribers": 15,
+    "ranked": null
+  },
+  "pricing": {
+    "model": "subscription"
+  },
+  "audience": {
+    "type": "B2B/B2C",
+    "size": "15 customers"
+  }
+}
