@@ -6,9 +6,9 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Open Startups: Profitable Startup Database</title>
+<title>Open Startups: The Open Database of Profitable Companies</title>
 <meta name="description" content="Open database of 34 profitable startups with complete replication playbooks, business models, tech stacks, and step-by-step guides. Verified revenue from TrustMRR, Baremetrics, and official company pages.">
-<meta property="og:title" content="Open Startups: Profitable Startup Database">
+<meta property="og:title" content="Open Startups: The Open Database of Profitable Companies">
 <meta property="og:description" content="34 profitable startups with replication playbooks. Learn from real verified MRR companies.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,161 +17,178 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#f5f7fa;--surface:#ffffff;--surface-soft:#f8fafc;--border:#d9e1ea;--border-hover:#aebdca;
-  --text:#111827;--text-secondary:#4b5563;--text-muted:#7b8794;
-  --accent:#0f766e;--accent-hover:#115e59;--accent-light:#e6f3f1;
-  --blue:#1d4ed8;--blue-light:#eaf1ff;
-  --green:#047857;--green-light:#e8f6ef;
-  --amber:#b45309;--amber-light:#fff4df;
-  --radius:8px;--radius-sm:6px;--radius-full:9999px;
-  --shadow:0 1px 2px rgba(15,23,42,.05);
-  --shadow-md:0 8px 24px rgba(15,23,42,.08);
-  --shadow-lg:0 18px 44px rgba(15,23,42,.12);
+  --bg:#f6f8fb;
+  --paper:#ffffff;
+  --paper-2:#fbfcfe;
+  --ink:#101418;
+  --ink-2:#334155;
+  --muted:#64748b;
+  --faint:#94a3b8;
+  --line:#d9e1ea;
+  --line-strong:#b8c4d0;
+  --teal:#0f766e;
+  --teal-dark:#115e59;
+  --teal-soft:#e8f4f2;
+  --blue:#1d4ed8;
+  --blue-soft:#eaf1ff;
+  --green:#067647;
+  --green-soft:#eaf8f0;
+  --amber:#a16207;
+  --amber-soft:#fff7df;
+  --charcoal:#18202a;
+  --radius:8px;
+  --radius-sm:6px;
+  --shadow:0 1px 2px rgba(16,24,40,.05),0 10px 30px rgba(16,24,40,.06);
+  --font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --ease:150ms ease;
 }
-body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--text);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none;transition:color .15s}
-a:hover{color:var(--accent-hover)}
-
-/* ── Layout ── */
-.wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem}
-
-/* ── Nav ── */
-.nav{border-bottom:1px solid var(--border);background:rgba(255,255,255,.92);backdrop-filter:blur(12px);position:sticky;top:0;z-index:100}
-.nav-inner{max-width:1080px;margin:0 auto;padding:.75rem 1.25rem;display:flex;align-items:center;justify-content:space-between}
-.nav-brand{font-weight:700;font-size:16px;color:var(--text);display:flex;align-items:center;gap:8px}
-.nav-brand span{color:var(--accent)}
-.nav-links{display:flex;gap:1.25rem;align-items:center}
-.nav-links a{font-size:13px;font-weight:500;color:var(--text-secondary);transition:color .15s}
-.nav-links a:hover{color:var(--text)}
-.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:var(--radius-sm);font-size:13px;font-weight:600}
-.nav-cta:hover{background:var(--accent-hover);color:#fff!important}
-
-/* ── Hero ── */
-.hero{padding:3.25rem 0 2.5rem;text-align:center;background:#eef3f7;border-bottom:1px solid var(--border)}
-.hero h1{font-size:clamp(28px,5vw,42px);font-weight:800;letter-spacing:0;line-height:1.15;margin-bottom:.75rem}
-.hero h1 span{color:var(--accent)}
-.hero .sub{font-size:clamp(14px,2.5vw,17px);color:var(--text-secondary);max-width:560px;margin:0 auto 1.5rem;line-height:1.6}
-.hero-badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
-.hbadge{font-size:12px;font-weight:600;padding:5px 12px;border-radius:var(--radius-full);display:inline-flex;align-items:center;gap:5px;border:1px solid transparent}
-.hbadge-green{background:var(--green-light);color:var(--green)}
-.hbadge-blue{background:var(--blue-light);color:var(--blue)}
-.hbadge-amber{background:var(--amber-light);color:var(--amber)}
-.hbadge-gray{background:#f1f5f9;color:var(--text-secondary);border:1px solid var(--border)}
-
-/* ── Stats ── */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:2rem 0}
-.stat-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.1rem 1rem;text-align:center;box-shadow:var(--shadow);transition:box-shadow .2s,border-color .2s}
-.stat-card:hover{border-color:var(--border-hover);box-shadow:var(--shadow-md)}
-.stat-num{font-size:26px;font-weight:700;color:var(--text);line-height:1.2}
-.stat-label{font-size:11px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
-
-/* ── Section headers ── */
-.sec-head{display:flex;align-items:center;justify-content:space-between;margin:2.5rem 0 1rem;flex-wrap:wrap;gap:.5rem}
-.sec-title{font-size:18px;font-weight:700;color:var(--text)}
-.sec-sub{font-size:13px;color:var(--text-secondary)}
-
-/* ── Search ── */
+html{scroll-behavior:smooth}
+body{font-family:var(--font);color:var(--ink);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+a{color:var(--teal);text-decoration:none}
+a:hover{color:var(--teal-dark)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.nav{position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(217,225,234,.88);background:rgba(255,255,255,.92);backdrop-filter:blur(14px)}
+.nav-inner{max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.nav-brand{font-weight:800;font-size:15px;color:var(--ink);display:flex;align-items:center;gap:9px;letter-spacing:0}
+.nav-brand svg{width:21px;height:21px;color:var(--teal)}
+.nav-links{display:flex;gap:26px;align-items:center}
+.nav-links a{font-size:13px;font-weight:650;color:var(--ink-2)}
+.nav-links a:hover{color:var(--ink)}
+.nav-cta{background:var(--charcoal);color:#fff!important;padding:8px 14px;border-radius:var(--radius-sm);border:1px solid var(--charcoal)}
+.nav-cta:hover{background:#0f172a;color:#fff!important}
+.hero{border-bottom:1px solid var(--line);background:#fff}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(360px,.72fr);gap:34px;align-items:center;padding:72px 24px 54px}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;color:var(--teal);background:var(--teal-soft);border:1px solid #cbe4df;padding:7px 12px;border-radius:999px;margin-bottom:18px;letter-spacing:0}
+.hero-eyebrow svg{width:14px;height:14px;flex:none}
+.hero h1{font-size:52px;font-weight:850;letter-spacing:0;line-height:1.02;margin-bottom:18px;color:var(--ink);max-width:760px}
+.hero h1 span{color:var(--teal)}
+.hero .sub{font-size:18px;color:var(--ink-2);max-width:660px;line-height:1.72;margin-bottom:28px;font-weight:430}
+.hero-badges{display:flex;gap:9px;flex-wrap:wrap}
+.hbadge{font-size:12px;font-weight:750;padding:7px 11px;border-radius:999px;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;color:var(--ink-2)}
+.hbadge-green{background:var(--green-soft);color:var(--green);border-color:#ccebd8}
+.hbadge-blue{background:var(--blue-soft);color:var(--blue);border-color:#cbdcff}
+.hbadge-amber{background:var(--amber-soft);color:var(--amber);border-color:#f0db99}
+.hbadge-gray{background:#fff;color:var(--ink-2);border-color:var(--line)}
+.hero-panel{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow);overflow:hidden}
+.hero-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;background:var(--paper-2);border-bottom:1px solid var(--line)}
+.hero-panel-title{font-size:12px;font-weight:850;color:var(--ink);text-transform:uppercase;letter-spacing:0}
+.hero-panel-live{font-size:11px;font-weight:800;color:var(--green);background:var(--green-soft);border:1px solid #ccebd8;border-radius:999px;padding:4px 8px;white-space:nowrap}
+.signal-row{display:grid;grid-template-columns:1fr auto;gap:14px;padding:14px 16px;border-bottom:1px solid var(--line);align-items:center}
+.signal-row:last-child{border-bottom:none}
+.signal-name{display:flex;align-items:center;gap:10px;min-width:0}
+.signal-mark{width:30px;height:30px;border-radius:6px;background:var(--charcoal);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:850;flex:none}
+.signal-title{font-size:13px;font-weight:800;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.signal-sub{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px}
+.signal-value{text-align:right;font-size:13px;font-weight:850;color:var(--green);white-space:nowrap}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin:34px 0;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.stat-card{background:var(--paper);padding:22px 20px;text-align:left}
+.stat-card:hover{background:var(--paper-2)}
+.stat-num{font-size:32px;font-weight:850;color:var(--ink);line-height:1.1;letter-spacing:0}
+.stat-label{font-size:11px;font-weight:850;color:var(--muted);text-transform:uppercase;letter-spacing:0;margin-top:7px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;margin:46px 0 16px;gap:16px;flex-wrap:wrap}
+.sec-title{font-size:21px;font-weight:850;color:var(--ink);letter-spacing:0}
+.sec-sub{font-size:13px;color:var(--muted);max-width:560px;text-align:right}
 .search-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.search-box{flex:1;min-width:220px;padding:10px 14px 10px 38px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:inherit;background:var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%2394a3b8' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.44.856a5 5 0 1 1 0-10 5 5 0 0 1 0 10z'/%3E%3C/svg%3E") 12px center no-repeat;color:var(--text);transition:border-color .15s,box-shadow .15s}
-.search-box:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(15,118,110,.12)}
-.result-count{font-size:13px;color:var(--text-muted);white-space:nowrap}
-
-/* ── Filters ── */
-.filters{display:flex;gap:6px;flex-wrap:wrap;margin-top:.75rem}
-.fbtn{font-size:12px;font-weight:600;padding:6px 14px;border:1px solid var(--border);border-radius:var(--radius-full);cursor:pointer;background:var(--surface);color:var(--text-secondary);transition:all .15s;font-family:inherit}
-.fbtn:hover{border-color:var(--border-hover);color:var(--text)}
-.fbtn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-
-/* ── Cards ── */
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.1rem;margin-bottom:10px;cursor:pointer;box-shadow:var(--shadow);transition:border-color .18s,box-shadow .18s,background .18s}
-.card:hover{border-color:var(--border-hover);box-shadow:var(--shadow-md);background:#fff}
-.card-top{display:flex;align-items:flex-start;gap:12px}
-.card-icon{width:38px;height:38px;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;flex-shrink:0;color:#fff}
-.card-info{flex:1;min-width:0}
-.card-row1{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-.card-name{font-size:15px;font-weight:700;color:var(--text)}
-.card-mrr{font-size:14px;font-weight:700;color:var(--green);white-space:nowrap;background:var(--green-light);padding:4px 10px;border-radius:var(--radius-sm);border:1px solid #bde7d2}
-.card-mrr small{font-size:11px;font-weight:400;color:var(--green);opacity:.7}
-.card-rank{font-size:12px;color:var(--text-muted);margin-top:2px;display:inline-flex;align-items:center;gap:4px}
-.card-rank::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--accent);display:inline-block}
-.card-desc{font-size:13px;color:var(--text-secondary);margin-top:8px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:11px;align-items:center}
-.tag{font-size:11px;font-weight:650;padding:3px 9px;border-radius:var(--radius-sm);letter-spacing:0;border:1px solid transparent}
-.tag-cat{background:var(--blue-light);color:var(--blue);border-color:#c7d8ff}
-.tag-growth{background:var(--amber-light);color:var(--amber);border-color:#f7d89a}
-.tag-open{background:#f0fdf4;color:var(--green);border:1px solid #bbf7d0}
-.card-action{margin-left:auto;color:var(--text-muted);font-size:12px;font-weight:650}
-
-/* ── Detail panel ── */
-.detail{display:none;background:var(--surface);border:1px solid var(--border-hover);border-radius:var(--radius);padding:0;margin:-2px 0 14px;box-shadow:var(--shadow-lg);overflow:hidden;animation:slideDown .2s ease}
+.search-box{flex:1;min-width:240px;padding:11px 14px 11px 40px;border:1px solid var(--line-strong);border-radius:var(--radius-sm);font-size:14px;font-family:var(--font);background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%2364748b' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.44.856a5 5 0 1 1 0-10 5 5 0 0 1 0 10z'/%3E%3C/svg%3E") 13px center no-repeat;color:var(--ink)}
+.search-box:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(15,118,110,.12)}
+.search-box::placeholder{color:var(--faint)}
+.result-count{font-size:13px;color:var(--muted);white-space:nowrap;font-weight:650}
+.filters{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.fbtn{font-size:12px;font-weight:750;padding:7px 12px;border:1px solid var(--line);border-radius:999px;cursor:pointer;background:#fff;color:var(--ink-2);font-family:var(--font)}
+.fbtn:hover{border-color:var(--line-strong);background:var(--paper-2);color:var(--ink)}
+.fbtn.on{background:var(--charcoal);color:#fff;border-color:var(--charcoal)}
+.table-wrap{margin-top:16px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--paper);box-shadow:var(--shadow)}
+.table-head{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 104px;padding:11px 20px;background:var(--paper-2);border-bottom:1px solid var(--line);font-size:11px;font-weight:850;color:var(--muted);text-transform:uppercase;letter-spacing:0;user-select:none}
+.table-head span{cursor:pointer;display:flex;align-items:center;gap:4px}
+.table-head span:hover,.table-head span.sorted{color:var(--ink)}
+.table-row{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 104px;padding:15px 20px;border-bottom:1px solid var(--line);align-items:center;cursor:pointer;transition:background var(--ease)}
+.table-row:last-child{border-bottom:none}
+.table-row:hover{background:var(--paper-2)}
+.table-row.open{background:#f0f8f7}
+.table-name{display:flex;align-items:center;gap:12px;min-width:0}
+.table-icon{width:34px;height:34px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:850;flex-shrink:0;color:#fff;letter-spacing:0}
+.table-name-text{min-width:0}
+.table-name-primary{font-size:14px;font-weight:800;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.table-name-desc{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px}
+.table-mrr{font-size:14px;font-weight:850;color:var(--green);white-space:nowrap}
+.table-growth{font-size:13px;font-weight:750;white-space:nowrap}
+.table-growth.positive{color:var(--green)}
+.table-growth.neutral{color:var(--faint)}
+.table-cat{font-size:12px;font-weight:650;color:var(--ink-2)}
+.table-action{font-size:12px;font-weight:800;color:var(--muted);text-align:right}
+.table-row:hover .table-action{color:var(--teal)}
+.detail{display:none;border-top:1px solid var(--line);background:var(--paper)}
 .detail.open{display:block}
-@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
-.detail-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:1.2rem 1.3rem;border-bottom:1px solid var(--border);background:#fbfcfd}
+.detail-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px;border-bottom:1px solid var(--line);background:var(--paper-2)}
 .detail-title{min-width:0}
-.detail-kicker{font-size:11px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.08em;margin-bottom:3px}
-.detail-close{font-size:12px;font-weight:650;color:var(--text-muted);cursor:pointer;padding:6px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--surface);font-family:inherit;transition:all .15s}
-.detail-close:hover{color:var(--text);border-color:var(--border-hover);background:#f8fafc}
-.detail h3{font-size:18px;font-weight:750;margin:0;color:var(--text)}
-.detail-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:1.1rem 1.3rem;background:var(--surface);border-bottom:1px solid var(--border)}
-.ditem{background:var(--surface-soft);border-radius:var(--radius-sm);padding:.75rem .85rem;border:1px solid var(--border)}
-.ditem-label{font-size:10px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
-.ditem-val{font-size:14px;font-weight:600;color:var(--text)}
-.detail-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.82fr);gap:14px;padding:1.3rem}
-.detail-section{border:1px solid var(--border);border-radius:var(--radius);padding:1rem;background:var(--surface)}
+.detail-kicker{font-size:11px;font-weight:850;color:var(--teal);text-transform:uppercase;letter-spacing:0;margin-bottom:5px}
+.detail h3{font-size:21px;font-weight:850;margin:0;color:var(--ink);letter-spacing:0}
+.detail-close{font-size:12px;font-weight:750;color:var(--ink-2);cursor:pointer;padding:7px 11px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;font-family:var(--font)}
+.detail-close:hover{color:var(--ink);border-color:var(--line-strong);background:var(--paper-2)}
+.detail-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border-bottom:1px solid var(--line)}
+.ditem{background:#fff;padding:16px 20px}
+.ditem-label{font-size:11px;font-weight:850;color:var(--muted);text-transform:uppercase;letter-spacing:0;margin-bottom:4px}
+.ditem-val{font-size:15px;font-weight:800;color:var(--ink)}
+.detail-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.82fr);gap:1px;background:var(--line)}
+.detail-section{background:#fff;padding:20px}
 .detail-section.wide{grid-column:1/-1}
-.sec-label{font-size:11px;font-weight:750;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin:0 0 .55rem}
-.prob-box{font-size:13px;line-height:1.65;color:var(--text-secondary)}
-.aud-box{font-size:13px;line-height:1.6;color:var(--text-secondary)}
-.steps{display:grid;gap:8px}
-.step{display:flex;gap:10px;align-items:flex-start;padding:0 0 8px;border-bottom:1px solid var(--border)}
-.step:last-child{border-bottom:none}
-.step-n{width:22px;height:22px;border-radius:var(--radius-sm);background:var(--accent-light);color:var(--accent);font-size:11px;font-weight:750;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
-.step-t{font-size:13px;line-height:1.5;color:var(--text)}
-.detail-btns{display:flex;gap:8px;flex-wrap:wrap;padding:0 1.3rem 1.3rem}
-.btn{font-size:12px;font-weight:600;padding:7px 16px;border-radius:var(--radius-sm);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:5px;transition:all .15s;font-family:inherit;border:1px solid var(--border);background:var(--surface);color:var(--text-secondary)}
-.btn:hover{background:#f8fafc;text-decoration:none;border-color:var(--border-hover)}
-.btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}
-.btn-primary:hover{background:var(--accent-hover);border-color:var(--accent-hover);color:#fff}
-
-/* ── How it works ── */
-.how{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:1.5rem 0}
-.how-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem;text-align:center;box-shadow:var(--shadow)}
-.how-num{width:32px;height:32px;border-radius:50%;background:var(--accent-light);color:var(--accent);font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto .75rem}
-.how-title{font-size:14px;font-weight:600;color:var(--text);margin-bottom:.35rem}
-.how-desc{font-size:12px;color:var(--text-secondary);line-height:1.5}
-
-/* ── Disclaimer ── */
-.disclaimer{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius);padding:1rem 1.25rem;margin:2rem 0;font-size:13px;color:#92400e;line-height:1.6}
-.disclaimer strong{color:#78350f}
-
-/* ── Footer ── */
-.footer{border-top:1px solid var(--border);margin-top:2rem;padding:2rem 0}
-.footer-inner{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1.5rem}
-.footer-brand{font-size:15px;font-weight:700;color:var(--text);margin-bottom:.5rem}
-.footer-brand span{color:var(--accent)}
-.footer p{font-size:13px;color:var(--text-secondary);line-height:1.6}
-.footer-links{display:flex;gap:2rem}
-.footer-col h4{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:.5rem}
-.footer-col a{display:block;font-size:13px;color:var(--text-secondary);padding:2px 0;transition:color .15s}
-.footer-col a:hover{color:var(--text)}
-.footer-copy{border-top:1px solid var(--border);margin-top:1.5rem;padding-top:1rem;text-align:center;font-size:12px;color:var(--text-muted)}
-
-/* ── Empty ── */
-.empty{text-align:center;padding:3rem 1rem;color:var(--text-muted);font-size:14px}
-
-/* ── Responsive ── */
-@media(max-width:768px){
+.sec-label{font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:0;color:var(--muted);margin:0 0 10px}
+.prob-box,.aud-box{font-size:14px;line-height:1.68;color:var(--ink-2)}
+.steps{display:grid;gap:11px}
+.step{display:flex;gap:10px;align-items:flex-start;padding-bottom:11px;border-bottom:1px solid var(--line)}
+.step:last-child{border-bottom:none;padding-bottom:0}
+.step-n{width:23px;height:23px;border-radius:var(--radius-sm);background:var(--teal-soft);color:var(--teal);font-size:11px;font-weight:850;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.step-t{font-size:13px;line-height:1.55;color:var(--ink)}
+.detail-btns{display:flex;gap:8px;flex-wrap:wrap;padding:18px 20px;background:#fff}
+.btn{font-size:13px;font-weight:750;padding:9px 14px;border-radius:var(--radius-sm);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;font-family:var(--font);border:1px solid var(--line);background:#fff;color:var(--ink-2)}
+.btn:hover{background:var(--paper-2);border-color:var(--line-strong);color:var(--ink)}
+.btn-primary{background:var(--charcoal);color:#fff;border-color:var(--charcoal)}
+.btn-primary:hover{background:#0f172a;border-color:#0f172a;color:#fff}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin:18px 0;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.how-card{background:#fff;padding:26px 22px;text-align:left}
+.how-card:hover{background:var(--paper-2)}
+.how-num{width:32px;height:32px;border-radius:var(--radius-sm);background:var(--teal-soft);color:var(--teal);font-size:13px;font-weight:850;display:flex;align-items:center;justify-content:center;margin-bottom:14px;border:1px solid #cbe4df}
+.how-title{font-size:15px;font-weight:850;color:var(--ink);margin-bottom:6px}
+.how-desc{font-size:13px;color:var(--ink-2);line-height:1.62}
+.disclaimer{background:var(--amber-soft);border:1px solid #efd996;border-radius:var(--radius);padding:18px 20px;margin:34px 0;font-size:13px;color:#713f12;line-height:1.65}
+.disclaimer strong{color:#4c2f0b}
+.footer{border-top:1px solid var(--line);margin-top:46px;padding:36px 0;background:#fff}
+.footer-inner{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:28px}
+.footer-brand{font-size:15px;font-weight:850;color:var(--ink);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.footer-brand svg{width:18px;height:18px;color:var(--teal)}
+.footer p{font-size:13px;color:var(--ink-2);line-height:1.62;max-width:470px}
+.footer-links{display:flex;gap:40px}
+.footer-col h4{font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:0;color:var(--muted);margin-bottom:9px}
+.footer-col a{display:block;font-size:13px;color:var(--ink-2);padding:3px 0}
+.footer-col a:hover{color:var(--ink)}
+.footer-copy{border-top:1px solid var(--line);margin-top:24px;padding-top:16px;text-align:center;font-size:12px;color:var(--muted)}
+.empty{text-align:center;padding:64px 16px;color:var(--muted);font-size:14px}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;padding-top:52px}
+  .hero h1{font-size:42px}
+  .sec-sub{text-align:left}
   .stats{grid-template-columns:repeat(2,1fr)}
   .detail-grid{grid-template-columns:repeat(2,1fr)}
   .detail-body{grid-template-columns:1fr}
   .how{grid-template-columns:1fr}
-  .footer-inner{flex-direction:column}
-  .footer-links{gap:1.5rem}
+  .table-head,.table-row{grid-template-columns:2fr 1fr 88px}
+  .table-head span:nth-child(3),.table-head span:nth-child(4),.table-head span:nth-child(5),
+  .table-row > *:nth-child(3),.table-row > *:nth-child(4),.table-row > *:nth-child(5){display:none}
 }
-@media(max-width:480px){
-  .stats{grid-template-columns:1fr 1fr;gap:8px}
-  .detail-grid{grid-template-columns:1fr}
+@media(max-width:560px){
+  .wrap,.nav-inner{padding-left:16px;padding-right:16px}
   .nav-links{display:none}
+  .hero-grid{padding:42px 16px 36px}
+  .hero h1{font-size:34px;line-height:1.08}
+  .hero .sub{font-size:16px}
+  .hero-panel{display:none}
+  .stats{grid-template-columns:1fr 1fr;margin:24px 0}
+  .stat-card{padding:18px 16px}
+  .detail-grid{grid-template-columns:1fr}
+  .footer-inner{flex-direction:column}
+  .footer-links{gap:26px;flex-wrap:wrap}
+  .table-head,.table-row{grid-template-columns:1fr 88px;padding-left:14px;padding-right:14px}
+  .table-head span:nth-child(2),.table-row > *:nth-child(2){display:none}
 }
 </style>
 </head>
@@ -180,10 +197,13 @@ a:hover{color:var(--accent-hover)}
 <!-- Nav -->
 <nav class="nav">
 <div class="nav-inner">
-  <div class="nav-brand"><span>◆</span> Open Startups</div>
+  <a href="#" class="nav-brand">
+    <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a1 1 0 011 1v1.323l3.954 1.582a1 1 0 01-.708 1.876L10 7.177V18a1 1 0 11-2 0V7.177l-4.246 1.604a1 1 0 01-.708-1.876L9 4.323V3a1 1 0 011-1z"/></svg>
+    Open Startups
+  </a>
   <div class="nav-links">
     <a href="#database">Database</a>
-    <a href="#how">How It Works</a>
+    <a href="#how">Workflow</a>
     <a href="https://github.com/SamMintah/openstartups" target="_blank">GitHub</a>
     <a href="https://github.com/SamMintah/openstartups/blob/main/CONTRIBUTING.md" target="_blank" class="nav-cta">Contribute</a>
   </div>
@@ -192,15 +212,27 @@ a:hover{color:var(--accent-hover)}
 
 <!-- Hero -->
 <section class="hero">
-<div class="wrap">
-  <h1>Learn from <span>profitable startups</span></h1>
-  <p class="sub">34 real companies with verified revenue. Replication playbooks, business models, tech stacks, and step-by-step guides.</p>
+<div class="wrap hero-grid">
+  <div class="hero-copy">
+  <div class="hero-eyebrow">
+    <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm3.28 5.22a.75.75 0 010 1.06l-4 4a.75.75 0 01-1.06 0l-2-2a.75.75 0 111.06-1.06L6.75 8.69l3.47-3.47a.75.75 0 011.06 0z"/></svg>
+    Open-source data · Verified revenue · Community-driven
+  </div>
+  <h1>The open database of<br><span>profitable startups</span></h1>
+  <p class="sub">34 companies with verified MRR, detailed replication playbooks, business models, tech stacks, and source-attributed build guides for serious operators.</p>
   <div class="hero-badges">
     <span class="hbadge hbadge-green">✓ Stripe-verified</span>
     <span class="hbadge hbadge-blue">34 Startups</span>
     <span class="hbadge hbadge-green">$7.9M+ Reported MRR</span>
     <span class="hbadge hbadge-gray">MIT Licensed</span>
     <span class="hbadge hbadge-amber">Data: Verified sources</span>
+  </div>
+</div>
+  <div class="hero-panel" aria-label="Featured startup metrics">
+    <div class="hero-panel-head"><div class="hero-panel-title">Revenue Signals</div><div class="hero-panel-live">34 verified entries</div></div>
+    <div class="signal-row"><div class="signal-name"><div class="signal-mark">ST</div><div><div class="signal-title">Stan</div><div class="signal-sub">Creator commerce playbook</div></div></div><div class="signal-value">$3.6M/mo</div></div>
+    <div class="signal-row"><div class="signal-name"><div class="signal-mark">GH</div><div><div class="signal-title">Ghost</div><div class="signal-sub">Open publishing platform</div></div></div><div class="signal-value">$896K/mo</div></div>
+    <div class="signal-row"><div class="signal-name"><div class="signal-mark">RB</div><div><div class="signal-title">RB2B</div><div class="signal-sub">B2B visitor intelligence</div></div></div><div class="signal-value">$352K/mo</div></div>
   </div>
 </div>
 </section>
@@ -218,7 +250,7 @@ a:hover{color:var(--accent-hover)}
 <!-- How it works -->
 <section class="wrap" id="how">
 <div class="sec-head">
-  <div class="sec-title">How it works</div>
+  <div class="sec-title">Research Workflow</div>
 </div>
 <div class="how">
   <div class="how-card">
@@ -259,13 +291,22 @@ a:hover{color:var(--accent-hover)}
   <button class="fbtn" onclick="setFilter('Education',this)">Education</button>
 </div>
 
-<div id="card-list" style="margin-top:1rem"></div>
+<div class="table-wrap" style="margin-top:1.25rem">
+  <div class="table-head">
+    <span onclick="sortBy('name')">Startup <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><path d="M5 2l3 4H2l3-4z"/></svg></span>
+    <span onclick="sortBy('mrr')">MRR <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><path d="M5 2l3 4H2l3-4z"/></svg></span>
+    <span onclick="sortBy('growth')">Growth <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><path d="M5 2l3 4H2l3-4z"/></svg></span>
+    <span onclick="sortBy('cat')">Category <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><path d="M5 2l3 4H2l3-4z"/></svg></span>
+    <span style="cursor:default">View</span>
+  </div>
+  <div id="card-list"></div>
+</div>
 </section>
 
 <!-- Disclaimer -->
 <section class="wrap">
 <div class="disclaimer">
-  <strong>Educational Use Only</strong>: This project is for learning and inspiration. Revenue data is sourced from TrustMRR, Baremetrics Open Startups, and official company pages. Respect intellectual property and trademarks when replicating any business. We are not affiliated with any startup listed here.
+  <strong>Educational Use Only</strong> - This project is for learning and inspiration. Revenue data is sourced from TrustMRR, Baremetrics Open Startups, and official company pages. Respect intellectual property and trademarks when replicating any business. We are not affiliated with any startup listed here.
 </div>
 </section>
 
@@ -274,7 +315,10 @@ a:hover{color:var(--accent-hover)}
 <div class="wrap">
   <div class="footer-inner">
     <div>
-      <div class="footer-brand"><span>◆</span> Open Startups</div>
+      <div class="footer-brand">
+        <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 2a1 1 0 011 1v1.323l3.954 1.582a1 1 0 01-.708 1.876L10 7.177V18a1 1 0 11-2 0V7.177l-4.246 1.604a1 1 0 01-.708-1.876L9 4.323V3a1 1 0 011-1z"/></svg>
+        Open Startups
+      </div>
       <p>Open database of profitable startups with<br>complete replication playbooks.</p>
     </div>
     <div class="footer-links">
@@ -503,7 +547,7 @@ const startups=[
   },
   {
     "id": "codedex",
-    "name": "Codédex",
+    "name": "Codedex",
     "rank": 19,
     "mrr": 86557,
     "growth": 2,
@@ -781,7 +825,7 @@ const startups=[
   cost:s.cost||'See guide',
   steps:s.steps||defaultSteps
 }));
-const guideSummaries={"stan":{"problem":"Stan is the #1 ranked product on TrustMRR with $3.6M MRR. It's a platform that enables creators, coaches, and influencers to monetize their audience without needing a team. Think: Shopify but specifically designed for individual creators who sell digital products, courses, memberships, and booking sessions. The core insight is that creators don't want to be website builders: they want a link in bio that actually converts.","market":"Creator monetization: specifically the \"link in bio\" + digital storefront space.","audience":"Creator monetization: specifically the \"link in bio\" + digital storefront space.","buildTime":"6-8 weeks for MVP (solo), 3-4 weeks (small team)","cost":"$0–50/month","steps":["Creator Storefront","Digital Product Delivery","Booking/Consultation Module"],"techStack":["Frontend: Next.js + Tailwind","Backend: Node.js + Express or tRPC","Database: PostgreSQL (Supabase)","Payments: Stripe Connect","File Storage: Cloudflare R2 or Supabase Storage"],"pricing":"Free: $0 · Pro: $29/mo · Premium: $99/mo","acquisition":["Creator Partnerships (Affiliate/Referral)","TikTok / Instagram / YouTube Shorts","SEO: \"sell digital products\" keywords"],"pitfalls":["Building too many features too fast. Stan's genius is simplicity. Don't add 50 product types: start with digital products + bookings, nail that, then expand. Creators choose Stan BECAUSE it's simple.","Ignoring mobile. 70%+ of creator audiences browse on mobile. Your storefront MUST be mobile-first. Test on real phones, not just browser dev tools.","Underpricing. Creators will pay $29/mo if you save them time and make them money. Don't price at $9/mo: it signals low value and makes the math hard with affiliate commissions."]},"rezi":{"problem":"Rezi is an AI-powered resume builder that helps job seekers create ATS-optimized resumes. It serves ~1M new users per year with a B2C freemium model and an enterprise tier serving 300+ organizations (universities, career centers, staffing agencies). The core insight: most resumes are rejected by Applicant Tracking Systems before a human ever sees them. Rezi reverse-engineers what ATS bots want and generates resumes that pass.","market":"AI-assisted job seeker tools: specifically resume writing and optimization.","audience":"AI-assisted job seeker tools: specifically resume writing and optimization.","cost":"$50–100/month","steps":["ATS Resume Parser & Scorer","AI Resume Generator","Export & Download"],"techStack":["Frontend: Next.js + React","AI/LLM: OpenAI GPT-4o API","PDF Parsing: pdf-parse (npm)","DOCX Parsing: mammoth (npm)","PDF Generation: Puppeteer or @react-pdf/renderer"],"pricing":"Free: $0 · Pro: ~$15-20/mo · Lifetime: ~$49-79 one-time · Enterprise: $500-2000/yr","acquisition":["SEO: \"AI resume builder\" keywords","Product Hunt Launch","University Partnerships"],"pitfalls":["Over-engineering the ATS parser. ATS systems are proprietary and change constantly. Don't try to reverse-engineer all of them: focus on the top 5 (Workday, Greenhouse, Lever, iCIMS, Taleo) and general formatting rules.","Ignoring the enterprise sales cycle. University and enterprise deals take 3-6 months. Start the conversation early, offer free pilots. Don't build enterprise features until you have 3+ committed prospects.","Competing on features with Canva/Google Docs. Your edge is intelligence, not design. Stay focused on AI-powered content, not drag-and-drop editors."]},"kibu":{"problem":"Kibu builds EHR and compliance software for organizations serving people with intellectual and developmental disabilities (I/DD). It operates across 48 states with $234K MRR. The core insight: healthcare compliance paperwork is fragmented and state-by-state, creating a massive pain point for providers who just want to focus on care.","market":"I/DD provider compliance software: a $5B+ niche within healthcare IT.","audience":"I/DD provider compliance software: a $5B+ niche within healthcare IT.","buildTime":"8-10 weeks","cost":"$100-200/mo","steps":["Progress notes module with state-specific compliance templates","Client documentation and goal tracking","Basic billing/claims integration"],"techStack":["Frontend: Next.js","Backend: Node.js + Express","Database: PostgreSQL (Supabase)","Auth: NextAuth.js","Payments: Stripe"],"pricing":"Enterprise SaaS model. $500-2K/mo per organization. Annual contracts preferred. Pricing based on number of clients served. Free pilot period (60-90 days) to reduce friction.","acquisition":["Direct sales: Cold email I/DD provider directors. Personalize with state compliance pain points.","Conferences: Attend ASHA, NADSP, state provider association meetings. Booth + speaking slots.","Case studies: Publish time-savings data from pilot orgs. \"Org X reduced compliance time by 60%.\""],"pitfalls":["Trying to solve all 50 states at once. Start with 2-3 states, nail compliance there, then expand.","Ignoring the sales cycle. Healthcare enterprise sales take 6-12 months. Plan cash flow accordingly.","Underestimating EHR integrations. HL7/FHIR integrations are complex and expensive. Budget 30% of dev time."]},"1lookup":{"problem":"1Lookup provides real-time phone, email, and IP validation through a single API endpoint. $227K MRR, Rank #6, growing 16% MoM. The core insight: developers waste time stitching together 3-5 different validation APIs. One endpoint that does everything is worth a premium.","market":"Developer-facing data validation APIs.","audience":"Developer-facing data validation APIs.","buildTime":"3-4 weeks","cost":"$0-50/mo (scales with usage)","steps":["Single REST endpoint: POST /validate with phone, email, or IP","Response: valid/invalid + enriched data (carrier, location, role detection)","Batch validation endpoint for bulk lists"],"techStack":["API: Node.js + Fastify","Cache: Redis (Upstash)","Providers: Twilio + Kickbox + ipinfo","Database: PostgreSQL","Payments: Stripe"],"pricing":"Usage-based pricing. $0.001-0.01 per lookup depending on type and volume. Free tier: 1,000 lookups/month. Enterprise: custom volume discounts.","acquisition":["RapidAPI marketplace: List on RapidAPI. Many developers discover APIs here. Free tier drives trials.","Developer content: Blog posts: \"How to validate emails at scale\", \"Phone number validation best practices\"","Cold outreach: Contact SaaS companies with validation-heavy onboarding flows."],"pitfalls":["API uptime is critical. Use fallback providers. If Twilio is down, route to a backup. 99.9% uptime minimum.","Rate limiting is tricky. Implement per-key rate limiting from day one. Don't let one customer hog all resources.","Enterprise sales are different. Self-serve API ≠ enterprise contracts. Have a separate sales motion for $1K+/mo customers."]},"cometly":{"problem":"Cometly provides marketing attribution and analytics for SaaS companies with an AI chat interface for ad data. $201K MRR, Rank #7. The core insight: iOS14 broke pixel-based attribution. Marketers need server-side tracking to understand which ads actually drive revenue.","market":"SaaS marketing attribution: post-iOS14 world.","audience":"SaaS marketing attribution: post-iOS14 world.","buildTime":"6-8 weeks","cost":"$100-300/mo","steps":["Server-side event tracking script (Meta CAPI + Google Enhanced Conversions)","Attribution dashboard showing revenue per channel/campaign","AI chat: \"Which campaign drove the most signups last week?\""],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL + TimescaleDB","AI: OpenAI GPT-4o","Hosting: Vercel + Railway"],"pricing":"$99-499/mo based on monthly events tracked. Tiers: Starter (100K events), Growth (500K), Scale (2M+). Enterprise: custom pricing with dedicated support.","acquisition":["LinkedIn content: Share attribution insights. \"Your Facebook ROAS is probably wrong. Here's why.\"","Agency partnerships: White-label for marketing agencies. They resell to their clients.","Case studies: \"How [SaaS company] found 40% of their ad spend was wasted.\""],"pitfalls":["Meta/Google APIs change constantly. Budget 20% of engineering for API maintenance.","Attribution is imprecise. Don't overpromise. Say \"directionally accurate\" not \"exact.\"","Data storage costs scale fast. Events table grows millions of rows. Implement data retention policies early."]},"supliful":{"problem":"Supliful is an all-in-one platform for creators to launch CPG (consumer packaged goods) brands: product selection, e-commerce, fulfillment. No upfront costs. $191K MRR, Rank #8. The core insight: creators want physical product lines but lack supplier/logistics relationships.","market":"Creator-to-CPG pipeline: white-label products for influencer brands.","audience":"Creator-to-CPG pipeline: white-label products for influencer brands.","buildTime":"6-8 weeks","cost":"$100-200/mo","steps":["Product catalog with white-label manufacturers","Brand customization tool (logo, label, packaging)","Shopify integration for storefront creation"],"techStack":["Frontend: Next.js","Backend: Node.js","E-commerce: Shopify API","Payments: Stripe Connect"],"pricing":"No subscription fee. Margin on each sale (wholesale → retail spread). Creators get products at wholesale, sell at retail. You take 20-30% margin.","acquisition":["Creator partnerships: DM 100 micro-creators (10K-100K followers). Offer free brand setup.","TikTok/Instagram: \"How I launched my supplement brand in 48 hours\": show the process.","Shopify App Store: List as a Shopify app for organic discovery."],"pitfalls":["Physical logistics are complex. Partner with experienced 3PLs. Don't try to handle fulfillment yourself.","Quality control is your responsibility. If the manufacturer ships bad product, the creator blames you.","Customer service scales fast. Every creator = potential support tickets. Build self-serve tools first."]},"postiz":{"problem":"Postiz is an open-source social media scheduling tool with 3,896 active subscriptions and $143K MRR, growing at 24% MoM. Built solo by Nevo David, it's the only open-source alternative to Buffer/Hootsuite that includes AI-powered content repurposing. The core insight: social media management is expensive ($50-500/mo for existing tools) and creators waste hours repurposing content across platforms. Postiz automates this with AI agents that turn one piece of content into platform-specific posts.","market":"Social media management for creators, small businesses, and agencies.","audience":"Social media management for creators, small businesses, and agencies.","buildTime":"6-8 weeks (solo), 3-4 weeks (team)","cost":"$0–80/month","steps":["Multi-Platform Scheduling","AI Content Repurposing","Analytics Dashboard"],"techStack":["Frontend: Next.js + Tailwind","Backend: NestJS","Database: PostgreSQL (Prisma ORM)","AI: OpenAI GPT-4o API","Social APIs: Twitter API v2, LinkedIn API, Meta Graph API"],"pricing":"Free (self-host): $0 · Free (cloud): $0 · Pro: $19/mo · Business: $49/mo","acquisition":["Open Source Community (GitHub)","Twitter/X Building in Public","SEO: \"open source social media scheduler\""],"pitfalls":["Social API rate limits and deprecations. Twitter, LinkedIn, and Meta change their APIs constantly. Build abstraction layers so you can swap providers. Budget 20% of engineering time for API maintenance.","Underestimating the self-hosting support burden. Open source users file issues for things that aren't bugs. Have a clear triage process and label issues by priority.","AI costs spiraling. GPT-4o calls add up at scale. Cache common repurposing patterns, use GPT-4o-mini for simple tasks, and set per-user AI quotas."]},"prosp":{"problem":"PROSP automates LinkedIn outreach with AI. Prospecting + personalized message sequences. $128K MRR, Rank #14. The core insight: sales teams spend hours on manual LinkedIn prospecting with low reply rates. AI personalization at scale changes the math.","market":"B2B sales automation: LinkedIn specifically.","audience":"B2B sales automation: LinkedIn specifically.","buildTime":"4-6 weeks","cost":"$50-100/mo","steps":["LinkedIn connection request automation","AI-personalized follow-up messages","Campaign dashboard with reply tracking"],"techStack":["Backend: Python + Selenium/Playwright","AI: OpenAI GPT-4o","Frontend: Next.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"$99/mo per seat. Team pricing at $79/seat for 5+. Free 7-day trial. No long-term contracts.","acquisition":["LinkedIn influencers: Partner with 5 sales influencers. They promote PROSP to their audience.","Sales communities: Post in Sales Hacker, Revenue Collective, LinkedIn sales groups.","Cold outreach: Use PROSP itself to prospect potential customers (meta-marketing)."],"pitfalls":["LinkedIn account bans are real. Implement human-like delays, rotation, and daily limits. This is the #1 risk.","AI personalization must be good. Bad AI messages = low reply rates = churn. Invest heavily in prompt engineering.","LinkedIn ToS is a gray area. Automation violates LinkedIn's terms. Have a legal review and clear user warnings."]},"propgpt":{"problem":"PropGPT is an AI sports betting props analysis app: the first AI app dedicated to transforming sports betting strategy. $96K MRR, Rank #17. The core insight: sports bettors lack data-driven tools to evaluate prop bets efficiently. AI can aggregate stats and identify value bets.","market":"AI-powered sports betting analysis: props specifically.","audience":"AI-powered sports betting analysis: props specifically.","buildTime":"6-8 weeks","cost":"$100-200/mo","steps":["Aggregated player stats + injury data","AI model to score prop bets by expected value","Mobile app with daily recommendations"],"techStack":["Mobile: React Native","Backend: Python + FastAPI","AI: OpenAI / custom ML model","Data: Sports data APIs (SportsDataIO)","Database: PostgreSQL"],"pricing":"$9.99/mo for standard access. $29.99/mo for premium (more props, real-time alerts). No free tier: bettors expect to pay for edges.","acquisition":["Reddit: r/sportsbook, r/dfsports. Share insights, not promotions.","Twitter: Post daily prop analysis. Build following before selling.","Affiliate: Partner with sportsbooks for referral revenue."],"pitfalls":["Sports data APIs are expensive. Budget $500+/mo for comprehensive data. Start with one sport (NFL or NBA).","Gambling regulations vary. Consult legal counsel. You're providing analysis, not taking bets.","User expectations are unrealistically high. They want guaranteed wins. Set expectations: \"Data-driven, not guaranteed.\""]},"vidai":{"problem":"Vid.AI turns any idea or script into ready-to-post videos. AI generates voiceovers, visuals, edits in minutes. $93K MRR, Rank #18. The core insight: creators and marketers need video content at scale but can't afford video editors or the time to edit manually.","market":"AI video generation for content creators and marketers.","audience":"AI video generation for content creators and marketers.","buildTime":"4-6 weeks","cost":"$100-300/mo (scales with usage)","steps":["Script → video pipeline (text input → video output)","AI voiceover generation (ElevenLabs)","AI visual generation (DALL-E/Runway) + auto-editing"],"techStack":["Frontend: Next.js","Backend: Python + FFmpeg","Voice: ElevenLabs API","Visuals: DALL-E 3 / Runway","Hosting: AWS Lambda"],"pricing":"$29/mo for 10 videos. $99/mo for unlimited. Credits-based for premium voices/visuals.","acquisition":["TikTok demos: Show before/after. \"I wrote this script and got a video in 60 seconds.\"","Content marketing: Blog: \"How to create 30 days of video content in 1 hour\"","Creator partnerships: Free access for creators with 10K+ followers. They post about it."],"pitfalls":["AI video quality is inconsistent. Set expectations: \"AI-assisted, not Hollywood.\" Offer human review option.","API costs are the biggest expense. Cache common visuals. Use cheaper models for drafts, premium for final.","Copyright with AI content is unresolved. Use only commercially licensed AI models. Add disclaimers."]},"codedex":{"problem":"Codédex is a learn-to-code platform built specifically for Gen Z with a gamified curriculum. $87K MRR, Rank #19. The core insight: traditional coding courses are boring and not designed for how Gen Z learns. Gamification (XP, streaks, badges) keeps them engaged.","market":"Gen Z coding education: gamified, bite-sized, community-driven.","audience":"Gen Z coding education: gamified, bite-sized, community-driven.","buildTime":"6-8 weeks","cost":"$50-100/mo","steps":["One language track (Python recommended: easiest to teach)","Duolingo-style: XP, streaks, badges, leaderboard","Bite-sized lessons (5-10 min each)"],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"$9.99/mo after 7 free lessons. Annual plan at $79/yr (33% discount). Student discount: $4.99/mo.","acquisition":["TikTok/YouTube: \"I learned Python in 30 days\": show progress and projects.","Student ambassadors: Give free access to college coding club leaders.","Partnerships: Bootcamps and CS departments as supplementary material."],"pitfalls":["Content creation is the bottleneck. Each lesson takes 10-20 hours to create. Plan for 6 months of content before launch.","Gamification must be genuine. Gen Z sees through fake engagement. Make XP actually mean something.","Competition from free resources. Your edge is curation and experience, not content独家."]},"upscale":{"problem":"Upscale is CRM and lead generation software with built-in email warmup. $69K MRR, Rank #22, growing 29% MoM. The core insight: SMBs need CRM + outreach tools but can't afford enterprise pricing (Salesforce = $150+/user/mo). A flat $49/mo undercuts everyone.","market":"SMB CRM with built-in email outreach and warmup.","audience":"SMB CRM with built-in email outreach and warmup.","buildTime":"6-8 weeks","cost":"$50-100/mo","steps":["Lightweight CRM (deals, contacts, pipeline)","Built-in email sequences with warmup","Basic reporting and analytics"],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Email: Postmark + custom warmup","Payments: Stripe"],"pricing":"$49/mo flat: no per-seat pricing. This is the key differentiator. \"One price, unlimited users.\"","acquisition":["Cold email using Upscale itself. Meta-product: \"This email was sent via Upscale. Want to send 10x more?\"","LinkedIn content: Share deliverability tips and warmup strategies.","Partnerships: Sales coaches and agencies recommend Upscale to their clients."],"pitfalls":["Email deliverability is fragile. Warmup takes 2-4 weeks. Don't promise instant results.","CRM is crowded. Your edge is simplicity + warmup. Don't add 50 features to compete with HubSpot.","Support burden scales with SMB customers. Build self-serve onboarding and docs first."]},"speel":{"problem":"Speel generates AI UGC-style videos and images for ads. 0 to $1M ARR in 3 months. $66K MRR, Rank #24. The core insight: brands need authentic-looking UGC ad creatives but real UGC is slow and expensive. AI can generate UGC-style content at scale.","market":"AI-generated UGC for performance marketing.","audience":"AI-generated UGC for performance marketing.","buildTime":"4-6 weeks","cost":"$200-500/mo (scales with usage)","steps":["Prompt → UGC video pipeline","Multiple UGC styles (testimonial, unboxing, demo)","Export in ad formats (9:16, 1:1, 16:9)"],"techStack":["Frontend: Next.js","Backend: Python","Video AI: Runway / Pika API","Voice: ElevenLabs","Hosting: AWS"],"pricing":"$99/mo for 50 credits. $299/mo for 200 credits. Enterprise: custom.","acquisition":["Shopify DTC communities: Facebook groups for DTC brands. Show before/after ad performance.","Content marketing: \"How we generated 100 UGC ads in 1 day\"","Partnerships: Ad agencies that manage DTC brands."],"pitfalls":["AI video quality is inconsistent. Offer a human review/edit option for premium tier.","API costs at scale. Cache common styles. Use cheaper models for drafts.","Brands may not trust AI UGC. Show performance data. \"AI UGC gets 3.2x CTR vs branded.\""]},"indexsy":{"problem":"Indexsy builds, acquires, and scales digital assets with an SEO consulting + tool suite. $65K MRR, Rank #25. The core insight: businesses struggle with Google indexing delays that kill SEO momentum. A tool that speeds up indexing is worth paying for.","market":"SEO tools focused on indexing and content site acquisition.","audience":"SEO tools focused on indexing and content site acquisition.","buildTime":"3-4 weeks","cost":"$0-50/mo","steps":["Google indexing status checker","Auto-submit URLs to Google Indexing API","Content site acquisition marketplace"],"techStack":["Frontend: Next.js","Backend: Node.js","API: Google Search Console API","Payments: Stripe"],"pricing":"$49/mo for the tool. Consulting packages at $2K-10K/mo. The tool is the funnel for consulting.","acquisition":["SEO Twitter: Share indexing tips and case studies. Jacky Chou's personal brand drives traffic.","Ahrefs community: Participate in Ahrefs blog comments and community.","Content marketing: \"How I indexed 1000 pages in 24 hours\": publish results."],"pitfalls":["Google Indexing API has rate limits. You can only submit 200 URLs/day per property. Don't overpromise.","SEO consulting doesn't scale. Use the tool as the product, consulting as the premium.","Competition from Ahrefs/SEMrush. Your edge is focus on indexing, not comprehensive SEO."]},"aeoengine":{"problem":"AEO Engine is a network of AI agents that research, create, optimize, and amplify content across Google, ChatGPT, Perplexity, AI Overviews. $61K MRR, Rank #27, growing 17% MoM. The core insight: brands need visibility across AI search engines, not just traditional Google. AEO (Answer Engine Optimization) is the new SEO.","market":"AI search optimization: optimizing for ChatGPT, Perplexity, AI Overviews.","audience":"AI search optimization: optimizing for ChatGPT, Perplexity, AI Overviews.","buildTime":"4-6 weeks","cost":"$100-300/mo","steps":["AEO audit: where does a brand appear in AI answers","Content optimization recommendations for AI search","Monitoring dashboard for AI visibility"],"techStack":["Frontend: Next.js","Backend: Python","AI: OpenAI + Perplexity API","Scraping: Playwright","Payments: Stripe"],"pricing":"Tool: $99/mo. Managed AEO services: $500-2K/mo. The tool is the funnel for managed services.","acquisition":["Target SaaS companies scared of AI search disruption. They're already searching for solutions.","Content marketing: \"How to appear in ChatGPT answers\": publish research.","LinkedIn: Share AEO insights. \"Brand X appeared in 0% of ChatGPT answers. After AEO: 40%.\""],"pitfalls":["AI search is nascent. The market may not be ready. Educate before selling.","Results are hard to measure. Build clear before/after metrics. Show visibility percentage changes.","Requires deep AI/SEO expertise. Hire or partner with people who understand both."]},"pixelpainters":{"problem":"PixelPainters provides unlimited graphics for churches, created by Christian designers. $61K MRR, Rank #28, growing 7% MoM. The core insight: small churches can't afford design agencies or full-time designers, but they need graphics constantly (sermon series, events, social media).","market":"Design services for churches and ministries.","audience":"Design services for churches and ministries.","buildTime":"2-3 weeks","cost":"$0-50/mo (plus designer costs)","steps":["Request portal (Typeform or custom)","Unlimited graphic requests","48-hour turnaround guarantee"],"techStack":["Portal: Typeform + Notion","Design: Figma + freelance designers","Payments: Stripe"],"pricing":"$299/mo unlimited requests. Annual plan at $299/yr (save 17%). No contracts, cancel anytime.","acquisition":["Church Facebook groups: Post samples. \"Here's this week's sermon series graphics.\"","Pastor forums: Participate in discussions about church marketing.","Denominational partnerships: Offer bulk pricing to church networks."],"pitfalls":["Unlimited model can be exploited. Set fair use limits (e.g., 10 requests/month). Monitor usage.","Niche is small. Growth ceiling exists. Expand to Christian schools, nonprofits.","Quality control with freelance designers. Create brand guidelines. Review every output."]},"backpedal":{"problem":"BackPedal provides GPS tracking and 24/7 recovery for bikes and e-bikes. Hardware + recurring subscription. $59K MRR, Rank #31, growing 55% MoM. The core insight: bike theft is rampant and current solutions don't offer active recovery. A GPS tracker with a recovery service is a new category.","market":"Bike/e-bike theft prevention and recovery.","audience":"Bike/e-bike theft prevention and recovery.","buildTime":"8-12 weeks (hardware + software)","cost":"$200-500/mo","steps":["GPS tracker hardware (Quectel module, ~$15 BOM)","iOS/Android tracking app","24/7 monitoring dashboard"],"techStack":["Mobile: React Native","Backend: Node.js","Hardware: Quectel GPS module","Database: PostgreSQL","Payments: Stripe"],"pricing":"$99 one-time for hardware. $9.99/mo subscription for tracking + recovery. 2-year contract for hardware subsidy.","acquisition":["Bike shop partnerships: In-store displays and demo units.","Cycling communities: Reddit r/cycling, local cycling groups.","E-bike manufacturers: Bundle with new e-bike purchases."],"pitfalls":["Hardware manufacturing is complex. Start with contract manufacturer. Don't try to build hardware yourself.","Battery life is a real constraint. GPS tracking drains battery. Implement smart polling (track only when moving).","GPS accuracy varies. Urban canyons and indoors reduce accuracy. Set expectations clearly."]},"seobot":{"problem":"SEOBOT is an AI agent for SEO: keywords, research, blog, mini apps, programmatic SEO and more. $58K MRR, Rank #32, growing 10% MoM. The core insight: founders need SEO content at scale but can't afford agencies or big teams. An AI agent that handles the entire SEO pipeline changes the economics.","market":"AI-powered SEO content automation.","audience":"AI-powered SEO content automation.","buildTime":"4-6 weeks","cost":"$100-200/mo","steps":["Keyword research → content brief automation","AI article writing with SEO optimization","Programmatic SEO page generator"],"techStack":["Frontend: Next.js","Backend: Python","AI: OpenAI GPT-4o","SEO Data: Ahrefs API","Payments: Stripe"],"pricing":"$99/mo for individuals. $299/mo for agencies. Enterprise: custom.","acquisition":["Indiehackers: Share MRR updates and build-in-public content.","Twitter: Post SEO insights and results. \"This article ranked #3 in 2 weeks.\"","SEO communities: Participate in SEO forums and groups."],"pitfalls":["AI content quality varies. Always have human review option. Don't auto-publish without review.","Google penalties for AI content are real. Add human touches, unique data, and genuine expertise.","Competition from Jasper, SurferSEO. Your edge is full pipeline automation, not just writing."]},"hack2hire":{"problem":"Hack2hire provides coding and system design practice for technical interview preparation. $46K MRR, Rank #39, growing 15% MoM. The core insight: LeetCode is gamified but doesn't teach system design or real interview strategy. A platform that combines coding practice with system design fills a gap.","market":"Technical interview prep: coding + system design combined.","audience":"Technical interview prep: coding + system design combined.","buildTime":"4-6 weeks","cost":"$50-100/mo","steps":["System design question library with architecture diagrams","Mock interview mode with timer","Coding challenges with test cases"],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"$29/mo for full access. 3 free problems/day. Annual plan at $199/yr (43% discount).","acquisition":["r/cscareerquestions: Share free system design tips. Link to platform.","LinkedIn: Post interview prep content. Connect with job seekers.","Coding bootcamp partnerships: Offer student discounts."],"pitfalls":["Content creation is expensive. System design diagrams take hours to create. Budget 6 months before launch.","Competition from Educative, Interviewing.io. Your edge is combining coding + system design + gamification.","User expectations are high. They want job guarantees. Set expectations: \"Practice platform, not placement service.\""]},"chatdash":{"problem":"ChatDash provides white-labeled AI assistant dashboards for agencies. Voiceflow + OpenAI integration with brandable client portals. $41K MRR, Rank #43, growing 8% MoM. The core insight: agencies reselling AI chatbots need a brandable client-facing dashboard: they don't want clients seeing Voiceflow or OpenAI directly.","market":"White-label AI chatbot infrastructure for agencies.","audience":"White-label AI chatbot infrastructure for agencies.","buildTime":"4-6 weeks","cost":"$50-100/mo","steps":["Embeddable AI chat widget with white-label branding","Voiceflow/OpenAI integration","Client dashboard with usage analytics"],"techStack":["Frontend: Next.js","Backend: Node.js","AI: OpenAI Assistants API","Chat Platform: Voiceflow","Payments: Stripe"],"pricing":"$200-500/mo per client seat. Agency pricing: volume discounts for 10+ clients.","acquisition":["Agency Facebook groups: Share demos. \"Here's what your clients see vs. what you see.\"","Slack communities: Join agency Slack groups. Share tips on AI chatbot deployment.","Cold outreach: Contact agencies that list \"AI chatbots\" on their services page."],"pitfalls":["White-labeling is technically complex. Every client wants different branding. Build a robust customization system.","Support burden from agency clients is high. Agencies expect fast responses. Build self-serve docs first.","Voiceflow/OpenAI API changes affect your product. Build abstraction layers. Budget 20% for maintenance."]},"simple-analytics":{"problem":"Simple Analytics is a privacy-first web analytics tool that charges $39K MRR with a simple promise: track your website traffic without cookies, GDPR headaches, or complexity. It's the antithesis of Google Analytics: no dashboards with 50 metrics, no consent banners, no data sampling. Just pageviews, referrers, and top pages. Built by a solo/duo team, it proves that \"less is more\" can be a profitable business model.","market":"Privacy-focused web analytics for developers and privacy-conscious businesses.","audience":"Privacy-focused web analytics for developers and privacy-conscious businesses.","buildTime":"3-5 weeks (solo), 2-3 weeks (team)","cost":"$0–30/month","steps":["Sub-1KB Tracking Script","Simple Dashboard","Privacy Compliance"],"techStack":["Tracking Script: Vanilla JS (<1KB)","Backend: Node.js + Express or Go","Database: PostgreSQL","Caching: Redis (Upstash)","Frontend: SvelteKit or Next.js"],"pricing":"Free (self-host): $0 · Starter: $9/mo · Business: $19/mo · Enterprise: Custom","acquisition":["Developer Communities","SEO: \"google analytics alternative\" keywords","Content Marketing"],"pitfalls":["Overcomplicating the dashboard. The whole point is simplicity. Don't add 50 metrics because users ask for them. Say no to features that break the \"simple\" promise.","Ignoring the self-hosting community. Self-hosters are your best evangelists. Make Docker deployment trivial. Provide excellent self-hosting docs. They'll recommend you to paying customers.","Google Analytics feature parity trap. You will NEVER have all GA features. That's the point. Focus on the 5 things 90% of websites actually need: pageviews, referrers, top pages, devices, real-time."]},"notionlytics":{"problem":"Notionlytics provides detailed analytics for Notion: company wikis, knowledge bases, shared documents. $39K MRR, Rank #47, growing 8% MoM. The core insight: teams share Notion docs but have zero visibility into what people actually read. Analytics changes that.","market":"Notion workspace analytics.","audience":"Notion workspace analytics.","buildTime":"3-4 weeks","cost":"$0-50/mo","steps":["Notion API integration for page tracking","Engagement dashboard (views, reads, time spent)","Content performance ranking"],"techStack":["Frontend: Next.js","Backend: Node.js","API: Notion API","Database: PostgreSQL","Payments: Stripe"],"pricing":"$19/mo per workspace. Free tier for 1 workspace. Team pricing: $9/mo per member.","acquisition":["Notion communities: r/Notion, Notion Facebook groups, Notion subreddit.","Notion consultants: Partner with consultants who set up Notion for companies.","Content marketing: \"How to track Notion engagement\": publish guides."],"pitfalls":["Notion API has rate limits. Implement smart polling. Don't track every page view in real-time.","Privacy concerns with tracking. Some users don't want their reading tracked. Offer opt-out.","Notion could build this themselves. Move fast, build community, create switching costs."]},"launch-club":{"problem":"Launch Club provides Reddit marketing for AI search visibility. Tools + content for business owners to promote products. $36K MRR, Rank #48, growing 24% MoM. The core insight: founders don't know how to use Reddit for marketing without getting banned. A tool + education combo solves this.","market":"Reddit marketing for founders and small businesses.","audience":"Reddit marketing for founders and small businesses.","buildTime":"3-4 weeks","cost":"$0-50/mo","steps":["Subreddit finder tool (find relevant subreddits for any product)","Content optimization for Reddit format","Posting schedule and engagement tracking"],"techStack":["Frontend: Next.js","Backend: Node.js","API: Reddit API","Payments: Stripe"],"pricing":"$99/mo for the tool. Course: $299 one-time. Membership: $99/mo for ongoing access + community.","acquisition":["Twitter: Share Reddit marketing tips. \"How I got 10K upvotes without getting banned.\"","Content marketing: Blog: \"Reddit marketing guide 2026\": rank for Reddit marketing keywords.","Partnerships: SaaS founders who successfully use Reddit."],"pitfalls":["Reddit is hostile to marketing. Easy to get banned. Your tool must teach the culture, not just the mechanics.","Course content needs constant updates. Reddit changes rules frequently. Budget time for updates.","ROI from Reddit is hard to measure. Build tracking links and attribution into the tool."]},"virlo":{"problem":"Virlo tracks, manages, and leverages short-form video data. Analytics for TikTok/Reels/Shorts. $36K MRR, Rank #50, growing 26% MoM. The core insight: creators and brands have no single view of performance across all short-form platforms. Virlo unifies TikTok, Reels, and Shorts analytics.","market":"Cross-platform short-form video analytics.","audience":"Cross-platform short-form video analytics.","buildTime":"4-6 weeks","cost":"$100-200/mo","steps":["Unified dashboard for TikTok + Reels + Shorts","Performance comparison across platforms","Content scheduling recommendations"],"techStack":["Frontend: Next.js","Backend: Python","APIs: TikTok API, Instagram Graph API, YouTube Data API","Database: PostgreSQL","Payments: Stripe"],"pricing":"$29/mo for 1 channel. $49/mo for 3 channels. $99/mo for 10 channels.","acquisition":["TikTok: Post analytics insights. \"Here's what the top 1% of TikTok creators do differently.\"","Creator communities: Share in creator Facebook groups and Discord servers.","MCN partnerships: Partner with multi-channel networks who manage many creators."],"pitfalls":["Platform APIs are restrictive. TikTok and Instagram limit data access. Build for what's available.","Competitor tracking may violate ToS. Don't scrape competitor data. Focus on user's own performance.","Short-form video analytics is crowded. Your edge is cross-platform unification, not single-platform features."]},"rb2b":{"problem":"B2B visitor identification for sales teams. Turns anonymous website traffic into company and contact-level prospecting signals.","market":"Marketing opportunity with verified public revenue data.","audience":"Team operators and customers in the Marketing market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"ghost":{"problem":"Open source publishing and membership platform for creators, newsletters, and independent media businesses.","market":"SaaS opportunity with verified public revenue data.","audience":"Team operators and customers in the SaaS market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"grokability":{"problem":"Company behind Snipe-IT, an open source IT asset management platform with hosted subscriptions and support.","market":"Developer Tools opportunity with verified public revenue data.","audience":"Team operators and customers in the Developer Tools market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"super":{"problem":"Website builder that turns Notion pages into fast, polished websites with custom domains and themes.","market":"SaaS opportunity with verified public revenue data.","audience":"Team operators and customers in the SaaS market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"waim":{"problem":"Membership and education business for creative entrepreneurs building calmer, more intentional online businesses.","market":"Education opportunity with verified public revenue data.","audience":"Small team operators and customers in the Education market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"oneforge":{"problem":"Foreign exchange market data API for developers who need currency rates in apps and trading workflows.","market":"Developer Tools opportunity with verified public revenue data.","audience":"Small team operators and customers in the Developer Tools market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"friendly":{"problem":"Privacy-friendly marketing and analytics services with hosted tools for organizations that want compliant alternatives.","market":"Marketing opportunity with verified public revenue data.","audience":"Small team operators and customers in the Marketing market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"moltsets":{"problem":"Niche subscription software with a small but paying customer base, reported publicly through Baremetrics.","market":"SaaS opportunity with verified public revenue data.","audience":"Small team operators and customers in the SaaS market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"syncforynab":{"problem":"Bank feed syncing utility for YNAB users who need smoother account imports in unsupported markets.","market":"SaaS opportunity with verified public revenue data.","audience":"Small team operators and customers in the SaaS market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]},"ifnoreply":{"problem":"Email follow-up automation product whose public Baremetrics dashboard currently reports no active MRR.","market":"Marketing opportunity with verified public revenue data.","audience":"Small team operators and customers in the Marketing market.","buildTime":"4-8 weeks","cost":"$50-250/mo","steps":["Study the public metric source and product positioning.","Build the narrow core workflow before adding platform features.","Validate with a specific customer segment and source-attributed pricing."],"techStack":["Frontend: Next.js","Backend: Node.js","Database: PostgreSQL","Payments: Stripe"],"pricing":"Subscription pricing based on usage, seats, or managed-service value.","acquisition":["SEO around the exact workflow.","Direct outreach to a narrow audience.","Partner with consultants or communities in the niche."],"pitfalls":["Do not copy branding or proprietary positioning.","Keep source attribution clear and current.","Avoid broad feature creep before activation is proven."]}};
+const guideSummaries={"stan":{"problem":"Stan is the #1 ranked product on TrustMRR with $3.6M MRR. It's a platform that enables creators, coaches, and influencers to monetize their audience without needing a team. Think: Shopify but specifically designed for individual creators who sell digital products, courses, memberships, and booking sessions. The core insight is that creators don't want to be website builders: they want a link in bio that actually converts.","market":"Creator monetization: specifically the \"link in bio\" + digital storefront space.","audience":"Creator monetization: specifically the \"link in bio\" + digital storefront space.","buildTime":"6-8 weeks for MVP (solo), 3-4 weeks (small team)","cost":"$0–50/month","steps":["Creator Storefront","Digital Product Delivery","Booking/Consultation Module"],"techStack":["Frontend: Next.js + Tailwind","Backend: Node.js + Express or tRPC","Database: PostgreSQL (Supabase)","Payments: Stripe Connect","File Storage: Cloudflare R2 or Supabase Storage"],"pricing":"Free: $0 · Pro: $29/mo · Premium: $99/mo","acquisition":["Creator Partnerships (Affiliate/Referral)","TikTok / Instagram / YouTube Shorts","SEO: \"sell digital products\" keywords"],"pitfalls":["Building too many features too fast. Stan's genius is simplicity. Don't add 50 product types: start with digital products + bookings, nail that, then expand. Creators choose Stan BECAUSE it's simple.","Ignoring mobile. 70%+ of creator audiences browse on mobile. Your storefront MUST be mobile-first. Test on real phones, not just browser dev tools.","Underpricing. Creators will pay $29/mo if you save them time and make them money. Don't price at $9/mo: it signals low value and makes the math hard with affiliate commissions."]}}
 startups.forEach(s=>Object.assign(s,guideSummaries[s.id]||{}));
 
 function cleanMd(v){
@@ -872,30 +916,29 @@ async function hydrateGuides(){
 function fmt(v,c){const p=c==='CHF'?'CHF ':c==='GBP'?'£':'$';if(v>=1e6)return p+(v/1e6).toFixed(1)+'M';if(v>=1e3)return p+(v/1e3).toFixed(0)+'K';return p+v}
 function clr(i){return C[i%C.length]}
 
-function card(s,i){
-  const g=s.growth?`<span class="tag tag-growth">+${s.growth}% MoM</span>`:'';
-  const o=s.open?`<span class="tag tag-open">Open source</span>`:'';
-  const srcLabel=s.rank?`#${s.rank} on TrustMRR`:(s.sourceName||'Verified source');
-  const rankLabel=s.rank?'Rank':'Source';
-  const rankValue=s.rank?`#${s.rank}`:(s.sourceName||'Verified source');
-  const sourceText=s.sourceName||'Source';
+let sortKey='mrr',sortDir=-1;
+function sortBy(key){
+  if(sortKey===key)sortDir*=-1;
+  else{sortKey=key;sortDir=key==='name'?1:-1}
+  render();
+}
+
+function row(s,i){
+  const g=s.growth?`<span class="table-growth positive">+${s.growth}%</span>`:`<span class="table-growth neutral">n/a</span>`;
+  const srcLabel=s.rank?`#${s.rank}`:(s.sourceName||'Verified');
   return`
-<div class="card" onclick="toggle('${s.id}')">
-  <div class="card-top">
-    <div class="card-icon" style="background:${clr(i)}">${s.name[0]}</div>
-    <div class="card-info">
-      <div class="card-row1">
-        <div class="card-name">${s.name}</div>
-        <div class="card-mrr">${fmt(s.mrr,s.currency)}<small>/mo</small></div>
-      </div>
-      <div class="card-rank">${srcLabel}</div>
+<div class="table-row" onclick="toggle('${s.id}')" id="r-${s.id}">
+  <div class="table-name">
+    <div class="table-icon" style="background:${clr(i)}">${s.name[0]}</div>
+    <div class="table-name-text">
+      <div class="table-name-primary">${s.name}</div>
+      <div class="table-name-desc">${srcLabel}</div>
     </div>
   </div>
-  <div class="card-desc">${s.desc}</div>
-  <div class="card-tags">
-    <span class="tag tag-cat">${s.cat}</span>${g}${o}
-    <span class="card-action">View playbook</span>
-  </div>
+  <div class="table-mrr">${fmt(s.mrr,s.currency)}</div>
+  ${g}
+  <div class="table-cat">${s.cat}</div>
+  <div class="table-action">View</div>
 </div>
 <div class="detail" id="d-${s.id}">
   <div class="detail-head">
@@ -907,7 +950,7 @@ function card(s,i){
   </div>
   <div class="detail-grid">
     <div class="ditem"><div class="ditem-label">Revenue</div><div class="ditem-val" style="color:var(--green)">${fmt(s.mrr,s.currency)}/mo</div></div>
-    <div class="ditem"><div class="ditem-label">${rankLabel}</div><div class="ditem-val">${rankValue}</div></div>
+    <div class="ditem"><div class="ditem-label">Source</div><div class="ditem-val">${srcLabel}</div></div>
     <div class="ditem"><div class="ditem-label">MVP Build</div><div class="ditem-val">${s.buildTime||'4-6 weeks'}</div></div>
     <div class="ditem"><div class="ditem-label">Cost to Start</div><div class="ditem-val">${s.cost||'$0-100/mo'}</div></div>
   </div>
@@ -932,7 +975,7 @@ function card(s,i){
   </div>
   <div class="detail-btns">
     <a href="playbook.html?startup=${s.id}" class="btn btn-primary">Full Playbook ↗</a>
-    <a href="${s.source}" target="_blank" class="btn">${sourceText} ↗</a>
+    <a href="${s.source}" target="_blank" class="btn">${s.sourceName||'Source'} ↗</a>
     ${s.website?`<a href="${s.website}" target="_blank" class="btn">Website ↗</a>`:''}
   </div>
 </div>`}
@@ -944,14 +987,46 @@ function render(){
     const mc=af==='all'||s.cat===af;
     const mq=!q||s.name.toLowerCase().includes(q)||s.desc.toLowerCase().includes(q)||s.cat.toLowerCase().includes(q)||s.problem.toLowerCase().includes(q);
     return mc&&mq});
+  f.sort((a,b)=>{
+    let va=a[sortKey],vb=b[sortKey];
+    if(sortKey==='name'){va=(va||'').toLowerCase();vb=(vb||'').toLowerCase();return sortDir*va.localeCompare(vb)}
+    if(sortKey==='growth'){va=va||0;vb=vb||0;return sortDir*(va-vb)}
+    if(sortKey==='cat'){va=(va||'').toLowerCase();vb=(vb||'').toLowerCase();return sortDir*va.localeCompare(vb)}
+    return sortDir*((a.mrr||0)-(b.mrr||0))
+  });
   const el=document.getElementById('card-list');
   if(!f.length){el.innerHTML='<div class="empty">No startups match that filter.</div>';return}
-  el.innerHTML=f.map((s,i)=>card(s,i)).join('');
-  document.getElementById('result-count').textContent=`${f.length} of ${startups.length} startups`}
+  el.innerHTML=f.map((s,i)=>row(s,i)).join('');
+  document.getElementById('result-count').textContent=`${f.length} of ${startups.length} startups`
+}
 function filterCards(){render()}
 function setFilter(v,btn){af=v;document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('on'));btn.classList.add('on');render()}
-function toggle(id){const d=document.getElementById('d-'+id);if(d.classList.contains('open')){d.classList.remove('open')}else{document.querySelectorAll('.detail.open').forEach(x=>x.classList.remove('open'));d.classList.add('open');d.scrollIntoView({behavior:'smooth',block:'nearest'})}}
-function close(id){document.getElementById('d-'+id).classList.remove('open')}
+function toggle(id){
+  const d=document.getElementById('d-'+id);
+  const r=document.getElementById('r-'+id);
+  if(d.classList.contains('open')){
+    d.classList.remove('open');
+    r?.classList.remove('open');
+  }else{
+    document.querySelectorAll('.detail.open').forEach(x=>x.classList.remove('open'));
+    document.querySelectorAll('.table-row.open').forEach(x=>x.classList.remove('open'));
+    d.classList.add('open');
+    r?.classList.add('open');
+    setTimeout(()=>d.scrollIntoView({behavior:'smooth',block:'nearest'}),50);
+  }
+}
+function close(id){
+  document.getElementById('d-'+id)?.classList.remove('open');
+  document.getElementById('r-'+id)?.classList.remove('open');
+}
+
+document.addEventListener('keydown',e=>{
+  if((e.metaKey||e.ctrlKey)&&e.key==='k'){
+    e.preventDefault();
+    document.getElementById('search').focus();
+  }
+});
+
 render();
 hydrateGuides();
 </script>
